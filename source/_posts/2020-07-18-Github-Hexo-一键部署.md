@@ -19,7 +19,7 @@ permalink: /archivers/16
 
 3. 这边设置好以后试一下git push origin发现还是要输入密码。之后查阅资料发现方式不对，最开始git clone的时候用的是 ```https://github.com/用户名/仓库名``` 的方式。这叫HTTPS方式，但是上文使用的是SSH方式，不是HTTPS方式。因此需要修改远程仓库地址格式，改成SSH的格式。<br>
 进入仓库的```.git```目录，编辑里面的```config```文件。把里面的```url```从 ```https://github.com/用户名/仓库名``` 改成 ```git@github.com:用户名/仓库名``` 。<br>
-3个仓库都要这么改！但是展示仓库的地址不在config文件，而是在后台仓库根目录的```_config.yml```文件。最下边有个```deploy```，把里面的```repo```改成 ```git@github.com:用户名/仓库名``` 。
+3个仓库都要这么改！但是展示仓库的地址不在```config```文件，而是在后台仓库根目录的```_config.yml```文件。最下边有个```deploy```，把里面的```repo```改成 ```git@github.com:用户名/仓库名``` 。
 
 4. 免密更新配置好以后，编写一键更新的CMD批处理放到项目根目录。
 ```bash
