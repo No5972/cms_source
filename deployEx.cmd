@@ -9,5 +9,5 @@ git commit -m "update"
 git push origin -u master
 cd ..
 hexo clean
-hexo generate
-hexo deploy
+hexo g
+hexo d
