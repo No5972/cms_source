@@ -33,8 +33,7 @@ git pull origin master
 git commit -m "update"
 git push origin -u master
 cd ..
-# hexo clean
-hexo deploy
+hexo clean && hexo g && hexo d
 ```
 ```hexo clean```经测试不能放这里面，放进去后面的语句就执行不了了。但是不放进去也不影响仓库代码提交。
 
