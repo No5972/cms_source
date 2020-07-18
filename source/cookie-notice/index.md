@@ -19,7 +19,7 @@ We use first party and third party cookies for several reasons. Some cookies are
 
 
 | Category | Providers | Usage |
-| ------------- | :--------------: | :--------------: | :--------------: | ------: |
+| :------: | :------: | :------: |
 | Comment | LiveRe. <br>https://was.livere.me | Personal information items below may be automatically generated and collected subsequently in the process of using the internet service.<br>Information such as Log data (Including IP information, browser type, domain searched, visiting page, telecom company classification, mobile equipment and application ID, search word etc) &amp; link, cookie data, LiveRe Service usage records, poor usage records etc.<br>More detailed information can be found [here](http://livere.com/policy/privacy). |
 | Visitors Count | Busuanzi<br>https://busuanzi.ibruce.info | This cookie is used to recognize different visitors in order to count the number of different visitors (UV).<br>Each visitor has its own code number. The number is what it use in order to recognize different visitors. |
 
