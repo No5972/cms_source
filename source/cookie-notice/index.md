@@ -1,6 +1,7 @@
 ---
 layout: page
 title: No5972.github.io Cookie Notice
+comments: false
 ---
 
 # No5972.github.io Cookie Notice
