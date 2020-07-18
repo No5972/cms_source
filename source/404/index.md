@@ -5,4 +5,4 @@ permalink: /404
 comments: false
 ---
 <center><h1>404 Not Found</h1></center>
-<hr><center>Hexo 4.5.1 - Theme NexT 8.0.0-rc.4</center>
+<hr><center>Hexo 4.2.1 - Theme NexT 8.0.0-rc.4</center>
