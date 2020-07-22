@@ -106,5 +106,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:No5972/cms.git
+  repo: 
+    github: git@github.com:No5972/cms.git
+    gitee: git@gitee.com:No5972/cms.git
   branch: master
