@@ -13,7 +13,7 @@ permalink: /archivers/16
 
 2. 按照网上现有的操作步骤设置账号全局的免密更新。现在据说github也有针对单个仓库的免密密钥，但是个人不建议在Hexo博客环境使用单个仓库密钥，毕竟更新一次要更新好几个仓库，不方便管理。<br>
 这里再稍微重复一下。<br>
-在Git Bash里面```cd ~; ssh-key gen -t rsa -C "你的邮箱地址"```，然后全部回车默认设置。<br>
+在Git Bash里面```cd ~; ssh-keygen -t rsa -C "你的邮箱地址"```，然后全部回车默认设置。<br>
 继续执行``` cd ~; cd .ssh; cat id_rsa.pub```，把从```ssh-rsa```开头一直到段落结尾复制。<br>
 在网页打开Github，账号Settings里面SSH and GPG Keys，New SSH Key，名字随便输入，下边的文本域粘贴刚才复制的pub内容。
 
