@@ -6,3 +6,27 @@ comments: false
 ---
 <center><h1>404 Not Found</h1></center>
 <hr><center>Hexo 4.2.1 - Theme NexT 8.0.0-rc.4</center>
+<script>
+console.log("test");
+if (location.href.lastIndexOf("/cms/archivers/test") != -1) location.href="/cms/1970/01/01/archivers/test/";
+if (location.href.lastIndexOf("/cms/archivers/hello") != -1) location.href="/cms/2014/12/30/archivers/hello/";
+if (location.href.lastIndexOf("/cms/archivers/1") != -1) location.href="/cms/2018/11/14/archivers/1/";
+if (location.href.lastIndexOf("/cms/archivers/test2") != -1) location.href="/cms/2018/11/14/archivers/test2/";
+if (location.href.lastIndexOf("/cms/archivers/test3") != -1) location.href="/cms/2018/11/14/archivers/test3/";
+if (location.href.lastIndexOf("/cms/archivers/springmvc-baiduaip-problem") != -1) location.href="/cms/2018/12/11/archivers/springmvc-baiduaip-problem/";
+if (location.href.lastIndexOf("/cms/archivers/test3") != -1) location.href="/cms/2018/11/14/archivers/test3/";
+if (location.href.lastIndexOf("/cms/archivers/2") != -1) location.href="/cms/2020/03/31/archivers/2/";
+if (location.href.lastIndexOf("/cms/archivers/3") != -1) location.href="/cms/2020/03/31/archivers/3/";
+if (location.href.lastIndexOf("/cms/archivers/4") != -1) location.href="/cms/2020/04/16/archivers/4/";
+if (location.href.lastIndexOf("/cms/archivers/5") != -1) location.href="/cms/2020/05/22/archivers/5/";
+if (location.href.lastIndexOf("/cms/archivers/6") != -1) location.href="/cms/2020/05/26/archivers/6/";
+if (location.href.lastIndexOf("/cms/archivers/7") != -1) location.href="/cms/2020/06/06/archivers/7/";
+if (location.href.lastIndexOf("/cms/archivers/8") != -1) location.href="/cms/2020/06/12/archivers/8/";
+if (location.href.lastIndexOf("/cms/archivers/9") != -1) location.href="/cms/2020/06/20/archivers/9/";
+if (location.href.lastIndexOf("/cms/archivers/10") != -1) location.href="/cms/2020/07/03/archivers/10/";
+if (location.href.lastIndexOf("/cms/archivers/11") != -1) location.href="/cms/2020/07/06/archivers/11/";
+if (location.href.lastIndexOf("/cms/archivers/12") != -1) location.href="/cms/2020/07/08/archivers/12/";
+if (location.href.lastIndexOf("/cms/archivers/13") != -1) location.href="/cms/2020/07/11/archivers/13/";
+if (location.href.lastIndexOf("/cms/archivers/14") != -1) location.href="/cms/2020/07/12/archivers/14/";
+if (location.href.lastIndexOf("/cms/archivers/15") != -1) location.href="/cms/2020/07/13/archivers/15/";
+</script>
