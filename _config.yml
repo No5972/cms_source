@@ -107,6 +107,5 @@ theme: next
 deploy:
   type: git
   repo: 
-    github: git@github.com:No5972/cms.git
-    gitee: git@gitee.com:No5972/cms.git
-  branch: master
+    github: git@github.com:No5972/cms.git,master
+    gitee: git@gitee.com:No5972/cms.git,master
