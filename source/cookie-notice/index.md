@@ -6,7 +6,7 @@ comments: false
 
 # No5972.github.io Cookie Notice
 
-Last updated: Jul 9, 2020
+Last updated: Aug 1, 2020
 
 This Cookie Notice explains how websites operated within the no5972.github.io (referred to herein as "we" or "us") (and in some instances, may be operated in conjunction with one of our distribution partners) use cookies and similar technologies to recognise you when you visit our websites ("Websites").  It explains what these technologies are and why we use them, as well as your rights to control our use of them.
 
@@ -20,9 +20,10 @@ We use first party and third party cookies for several reasons. Some cookies are
 
 
 | Category | Providers | Usage |
-| :------: | :------: | :------: |
+| :------: | :------: | :------ |
 | Comment | LiveRe. <br>https://was.livere.me | Personal information items below may be automatically generated and collected subsequently in the process of using the internet service.<br>Information such as Log data (Including IP information, browser type, domain searched, visiting page, telecom company classification, mobile equipment and application ID, search word etc) &amp; link, cookie data, LiveRe Service usage records, poor usage records etc.<br>More detailed information can be found [here](http://livere.com/policy/privacy). |
 | Visitors Count | Busuanzi<br>https://busuanzi.ibruce.info | This cookie is used to recognize different visitors in order to count the number of different visitors (UV).<br>Each visitor has its own code number. The number is what it use in order to recognize different visitors. |
+| Share Buttons | Addthis<br>https://addthis.com | For personal information collected outside Europe, Addthis use personal information for the following commercial purposes:<br>a) to enable AddThis Tools functionality;<br>b) to enable AddThis Publishers and Oracle Marketing & Data Cloud customers and partners to market products and services to you;<br>c) to provide personalized recommendations and messages;<br>d) to link browsers and apps across devices;<br>e) to sync unique identifiers; and<br>f) to analyze, develop, and improve the AddThis Tools and Oracle products and services.<br><br>For personal information collected outside Europe, Addthis  use personal information for the following business purposes:<br>g) to manage the security of Oracle's sites, networks, and systems; and<br>h) to comply with applicable laws and regulations and to operate Oracle's business.<br><br>More detailed information can be found [here](https://www.oracle.com/legal/privacy/addthis-privacy-policy.html). |
 
 
 ## III. How can I control cookies?
