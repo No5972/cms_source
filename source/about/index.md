@@ -10,11 +10,13 @@ Welcome to this website!
 
 # Special Thanks
 - [Laobubu's EasyBook](https://github.com/laobubu/jekyll-theme-EasyBook)
+- [Hexo Theme NexT](https://github.com/next-theme/hexo-theme-next)
 - [辽宁 鸣涧's 《从无到有菜鸟建站》 at 《电脑爱好者》 (*Computer Fan*)](https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFD2001&filename=DNAH200120028&uid=WEEvREcwSlJHSldTTEYzVDhUSFJQNmh4RHRSY05FcnlNcmROOCtrMFZlVT0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4ggI8Fm4gTkoUKaID8j8gFw!!&v=MTYwMTc3dlBJU1BLWnJHNEh0RE9yNDlIYklSOGVYMUx1eFlTN0RoMVQzcVRyV00xRnJDVVI3cWZZT1p1RnlqbVU=)
 - [后宫学长's Live2D](https://github.com/galnetwen/Live2D)
 - [襄阳广播电视台 (Xiangyang Radio & Television Station)](http://www.xyrtv.com)
-- [襄阳市公交集团 (Xiangyang Bus Co Ltd.)](http://www.xfbus.com.cn/)
+- [襄阳市公交集团 (Xiangyang Bus Co. Ltd.)](http://www.xfbus.com.cn/)
 - [武汉广播电视台 (Wuhan Radio & Television Station)](http://www.whtv.com.cn/)
+- [武汉市地铁集团 (Wuhan Metro Group Co. Ltd.)](https://www.wuhanrt.com/)
 - [站酷快乐体字体 (ZcoolHappy-2016 Font)](https://www.zcool.com.cn/special/zcoolfonts/#fl6)
 
 <img src="https://no5972.github.io/cms/static/no5972.png" height="113" width="290">
