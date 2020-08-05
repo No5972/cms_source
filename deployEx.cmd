@@ -8,4 +8,9 @@ git pull origin master
 git commit -m "update"
 git push origin -u master
 cd ..
-hexo clean && hexo g && hexo d
+hexo clean
+while [ ! -f filename ]
+do
+	hexo g
+done
+hexo d
