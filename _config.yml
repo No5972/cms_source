@@ -8,7 +8,17 @@ subtitle: ''
 description: 'No.5972 is silly B'
 keywords:
 author: No.5972
-language: en
+language: 
+  - en
+  - zh-CN
+i18n:
+  type: 
+    - page
+    - post
+  generator: 
+    - index
+    - archive
+    - category
 timezone: ''
 
 # URL
