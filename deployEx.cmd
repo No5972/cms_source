@@ -8,4 +8,4 @@ git pull origin master
 git commit -m "update"
 git push origin -u master
 cd ..
-hexo clean && hexo g && hexo d && node "..\updateGitee.js"
+hexo clean && hexo g && hexo d && node "..\..\updateGitee.js"
