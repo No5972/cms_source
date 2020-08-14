@@ -120,6 +120,9 @@ theme: next
 sitemap:
   path: sitemap.xml
 
+baidusitemap:
+  url: https://no5972.gitee.io
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
