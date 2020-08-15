@@ -50,6 +50,6 @@ NexT.utils.loadComments('#valine-comments', () => {
 
 于是将配置文件的这个```language```属性名称改成```lang```。重启服务器，刷新页面，此时可以看到评论界面已经成功变为英文。
 
-目前鄙人已将此问题在Hexo官方Github提交Issue。希望那边可以订正这个小BUG。
+目前鄙人已将此问题在NexT官方Github提交Issue。希望那边可以订正这个小BUG。
 
 [一个小问题：Valine 1.4.14 多语言属性名字在这边主题配置里面不对（language应该是lang）](https://github.com/next-theme/hexo-theme-next/issues/83)
