@@ -15,7 +15,7 @@ Welcome to this website!
 - [后宫学长's Live2D](https://github.com/galnetwen/Live2D)
 - [襄阳广播电视台 (Xiangyang Radio & Television Station)](http://www.xyrtv.com)
 - [襄阳市公交集团 (Xiangyang Bus Co. Ltd.)](http://www.xfbus.com.cn/)
-- [武汉广播电视台 (Wuhan Radio & Television Station)](http://www.whtv.com.cn/)
+- [武汉广播电视台 (Wuhan Media Group)](http://www.whtv.com.cn/)
 - [武汉市地铁集团 (Wuhan Metro Group Co. Ltd.)](https://www.wuhanrt.com/)
 - [站酷快乐体字体 (ZcoolHappy-2016 Font)](https://www.zcool.com.cn/special/zcoolfonts/#fl6)
 
