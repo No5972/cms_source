@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "（暂时）Hexo NexT主题 Valine评论 多语言失效"
+title:  "（正式版已修复）Hexo NexT主题 Valine评论 多语言失效"
 date:   2020-08-06 16:15:00
 categories: Web-Building
 excerpt: 这个博客必然是要面向全世界开放的（所以为什么初次访问本博客顶部会出现Cookie声明），所以界面是英文的（博文暂不考虑翻译）。之前来必力评论发现发送评论之后页面并不能显示，后台显示了但是前台并没有显示。考虑到现在大部分新开的个人博客网站都采用了Valine框架的评论，这里也打算换用Valine。但是在NexT主题里面配置了```language```属性之后评论界面语言并没有发生变化，这个也是应当按英文来显示的。
