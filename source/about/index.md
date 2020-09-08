@@ -11,7 +11,7 @@ Welcome to this website!
 # Achievements
 - <span title="National English Competition for College Students / 全国大学生英语竞赛">NECCS - 2nd Prize for Band C, 2018</span>
 - <span title="Chinese Physics Olympiad / 全国中学生物理竞赛">CPHO - 2nd Prize of the Province, 2014</span>
-- <span title="National High Schoool Mathematics League / 全国高中数学联赛">NHSML - 2nd Prize of the Province, 2013</span>
+- <span title="National High School Mathematics League / 全国高中数学联赛">NHSML - 2nd Prize of the Province, 2013</span>
 
 # Special Thanks
 - [Laobubu's EasyBook](https://github.com/laobubu/jekyll-theme-EasyBook)
