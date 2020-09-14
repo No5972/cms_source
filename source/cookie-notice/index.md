@@ -8,7 +8,7 @@ comments: false
 
 Last updated: Sep 14, 2020
 
-This Cookie Notice explains how websites operated within the no5972.github.io (referred to herein as "we" or "us") (and in some instances, may be operated in conjunction with one of our distribution partners) use cookies and similar technologies to recognise you when you visit our websites ("Websites").  It explains what these technologies are and why we use them, as well as your rights to control our use of them.
+This Cookie Notice explains how websites operated within the no5972.github.io (referred to herein as "we", "us", or "our") (and in some instances, may be operated in conjunction with one of our distribution partners) use cookies and similar technologies to recognise you when you visit our websites ("Websites").  It explains what these technologies are and why we use them, as well as your rights to control our use of them.
 
 ## I. WTF are cookies?
 Cookies are small data files that are placed on your computer or mobile device when you visit a website.  Cookies are widely used by website owners in order to make their websites work, or to work more efficiently, as well as to provide reporting information. 
