@@ -13,6 +13,21 @@ Welcome to this website!
 - <span title="Chinese Physics Olympiad / 全国中学生物理竞赛">CPHO - 2nd Prize of the Province, 2014</span>
 - <span title="National High School Mathematics League / 全国高中数学联赛">NHSML - 2nd Prize of the Province, 2013</span>
 
+# Components
+- [Github Pages](https://github.com/No5972/cms/) - Deployment server
+- [Gitee Pages](https://gitee.com/No5972/cms/) - Deployment server
+- [jsDelivr](https://www.jsdelivr.com) - Content distribution network
+- [Hexo](https://hexo.io) - Website compiler
+- [Hexo Theme NexT](https://theme-next.js.org/) - Website style
+- [Live2D](https://github.com/galnetwen/Live2D) - Kanban Musume
+- [Hexo-Generator-SearchDB](https://github.com/theme-next/hexo-generator-searchdb) - Local search
+- [Valine](https://valine.js.org/) - Comments
+- [LeanCloud](https://leancloud.app/) - Valine backend
+- [Busuanzi](https://busuanzi.ibruce.info/) - Visitor counter
+- [AddThis](https://www.addthis.com/) - Article share
+- **[Freenom](https://www.freenom.link/) - Indepentent domain name**
+- [Cloudflare](https://www.cloudflare.com) - DNS resolution and HTTPS access
+
 # Special Thanks
 - [Laobubu's EasyBook](https://github.com/laobubu/jekyll-theme-EasyBook)
 - [Hexo Theme NexT](https://github.com/next-theme/hexo-theme-next)
