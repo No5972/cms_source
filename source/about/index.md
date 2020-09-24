@@ -40,7 +40,7 @@ Welcome to this website!
 - [武汉市地铁集团 (Wuhan Metro Group Co. Ltd.)](https://www.wuhanrt.com/)
 - [站酷快乐体字体 (ZcoolHappy-2016 Font)](https://www.zcool.com.cn/special/zcoolfonts/#fl6)
 
-<img src="https://no5972.github.io/cms/static/no5972.png" height="113" width="290">
+<img src="https://no5972.github.io/cms/static/no5972.png" height="113" width="275">
 
 ```
             %####%                                                                                     
