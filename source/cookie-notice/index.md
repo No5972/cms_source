@@ -6,7 +6,7 @@ comments: false
 
 # No5972.github.io Cookie Notice
 
-Last updated: Sep 14, 2020
+Last updated: Sep 24, 2020
 
 This Cookie Notice explains how websites operated within the no5972.github.io (referred to herein as "we", "us", or "our") (and in some instances, may be operated in conjunction with one of our distribution partners) use cookies and similar technologies to recognise you when you visit our websites ("Websites").  It explains what these technologies are and why we use them, as well as your rights to control our use of them.
 
@@ -24,6 +24,7 @@ We use first party and third party cookies for several reasons. Some cookies are
 | **Essential website cookies:**<br>These cookies are strictly necessary to provide you with services available through our Website and to use some of its features, such as access to secure areas. | No.5972 Publishment Website <br>https://no5972.github.io | Because these cookies are strictly necessary to deliver the Website to you, you cannot refuse them.<br>You can block or delete them by changing your browser settings however, as described below under the heading “How can I control cookies?”. |
 | **Performance and functionality cookies:**<br>These cookies are used to enhance the performance and functionality of our Website but are non-essential to their use. However, without these cookies, certain functionality (like videos) may become unavailable. | Addthis<br>https://addthis.com<br><br>jsDelivr <br>https://cdn.jsdelivr.net | To refuse these cookies, please follow the instructions below under the heading “How can I control cookies?”.<br>Alternatively, please click on the relevant opt-out link below:<br>Addthis: https://www.oracle.com/legal/privacy/addthis-privacy-policy.html.<br>jsDelivr: https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net |
 | **Analytics and customisation cookies:**<br>These cookies collect information that is used either in aggregate form to help us understand how our Websites are being used or how effective are marketing campaigns are, or to help us customise our Websites for you. | Busuanzi<br>https://busuanzi.ibruce.info | To refuse these cookies, please follow the instructions below under the heading "How can I control cookies?" |
+| **Advertising cookies:**<br>These cookies are used to make advertising messages more relevant to you. They perform functions like preventing the same ad from continuously reappearing, ensuring that ads are properly displayed for advertisers, and in some cases selecting advertisements that are based on your interests. | Google<br>https://google.com<br>https://doubleclick.net | To refuse these cookies, please follow the instructions below under the heading “How can I control cookies?”.<br>Alternatively, please click on the relevant opt-out link below:<br>Google: https://support.google.com/ads/answer/2662922 . |
 
 
 ## III. How can I control cookies?
