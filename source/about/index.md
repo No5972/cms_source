@@ -26,7 +26,8 @@ Welcome to this website!
 - [Busuanzi](https://busuanzi.ibruce.info/) - Visitor counter
 - [AddThis](https://www.addthis.com/) - Article share
 - **[Freenom](https://www.freenom.link/) - Indepentent domain name**
-- [Cloudflare](https://www.cloudflare.com) - DNS resolution and HTTPS access
+- ~~[Cloudflare](https://www.cloudflare.com) - DNS resolution and HTTPS access~~
+- [DNSPod](https://www.dnspod.cn) - DNS resolution
 
 # Special Thanks
 - [Laobubu's EasyBook](https://github.com/laobubu/jekyll-theme-EasyBook)
