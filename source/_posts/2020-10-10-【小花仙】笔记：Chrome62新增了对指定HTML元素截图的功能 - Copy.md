@@ -8,7 +8,7 @@ permalink: /archivers/37
 isrepublish: true
 ---
 
-来源：[![Kayce Basques-What's New In DevTools (Chrome 62)](https://img.shields.io/badge/Kayce%20Basques-What's%20New%20In%20DevTools%20(Chrome 62)-brightgreen)](https://developers.google.com/web/updates/2017/08/devtools-release-notes)
+来源：[![Kayce Basques-What's New In DevTools (Chrome 62)](https://img.shields.io/badge/Kayce%20Basques-What's%20New%20In%20DevTools%20（Chrome 62）-brightgreen)](https://developers.google.com/web/updates/2017/08/devtools-release-notes)
 
 New features and changes coming to DevTools in Chrome 62:
 
