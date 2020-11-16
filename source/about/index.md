@@ -4,6 +4,8 @@ date: 2020-07-17 03:30:50
 comments: false
 ---
 
+{% aplayer "CCTV-2 Common Program Ending" "CCTV" "https://cdn.jsdelivr.net/gh/No5972/Other_demos@audio1/CCTV2ED3.mp3" "https://s3.ax1x.com/2020/11/16/Dkr3DI.jpg" autoplay %}
+
 Welcome to this website!
 
 > This website is using the [Hexo](https://hexo.io/) theme: [NexT](https://github.com/next-theme/hexo-theme-next)
