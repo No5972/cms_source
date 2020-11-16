@@ -9,9 +9,10 @@ Welcome to this website!
 > This website is using the [Hexo](https://hexo.io/) theme: [NexT](https://github.com/next-theme/hexo-theme-next)
 
 # Achievements
-- <span title="National English Competition for College Students / 全国大学生英语竞赛">NECCS - 2nd Prize for Band C, 2018</span>
-- <span title="Chinese Physics Olympiad / 全国中学生物理竞赛">CPHO - 2nd Prize of the Province, 2014</span>
-- <span title="National High School Mathematics League / 全国高中数学联赛">NHSML - 2nd Prize of the Province, 2013</span>
+- <span title="National English Competition for College Students / 全国大学生英语竞赛">National English Competition for College Students (NECCS) - 2nd Prize for Band C, 2018</span>
+- <span title="Chinese Physics Olympiad / 全国中学生物理竞赛">Chinese Physics Olympiad (CPHO) - 2nd Prize of the Province, 2014</span>
+- <span title="National High School Mathematics League / 全国高中数学联赛">National High School Mathematics League (NHSML) - 2nd Prize of the Province, 2013</span>
+- <span title="National English Proficiency Competition for Middle School Students / 全国中学生英语能力竞赛">National English Proficiency Competition for Middle School Students (NEPCS) - 3rd Prize of the School for Junior Three, 2011</span>
 
 # Components
 - [Github Pages](https://github.com/No5972/cms/) - Deployment server
