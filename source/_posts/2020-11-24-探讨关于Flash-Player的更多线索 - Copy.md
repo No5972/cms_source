@@ -2,7 +2,7 @@
 layout: post
 title: "探讨更多关于Flash Player的线索"
 date: 2020-11-24 16:45:00
-categories: Webapp
+categories: Moving-Away-from-Flash
 excerpt: "Flash即将在2020年底停止支持。如果仍然有一些业内业务需要Flash我們应该如何应对，这里找到了更多的线索。"
 permalink: /archivers/48
 ---

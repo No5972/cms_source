@@ -2,7 +2,7 @@
 layout: post
 title: "Chrome/Chromium即将停止支持Flash的详细事宜"
 date: 2020-10-27 17:30:00
-categories: Webapp
+categories: Moving-Away-from-Flash
 excerpt: "2021.1：从Chromium移除对Flash的支持！"
 permalink: /archivers/41
 isrepublish: true
