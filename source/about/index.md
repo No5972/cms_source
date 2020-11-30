@@ -9,6 +9,9 @@ comments: false
 Welcome to this website!
 
 > This website is using the [Hexo](https://hexo.io/) theme: [NexT](https://github.com/next-theme/hexo-theme-next)
+> The source of this website is licensed under a [BSD 3-Clause "New" or "Revised" License](https://github.com/No5972/cms_source/blob/master/LICENSE)
+> Original content of this site, except those works that are given appropriate credits, is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 # Achievements
 - <span title="National English Competition for College Students / 全国大学生英语竞赛 / 2018 C类国二">National English Competition for College Students (NECCS) - 2nd Prize for Band C, 2018</span>
