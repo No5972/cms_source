@@ -2,13 +2,15 @@
 layout: post
 title: "360浏览器官方回应Chromium停止支持Flash"
 date: 2020-10-30 08:30:00
-categories: Webapp
+categories: Moving-Away-from-Flash
 excerpt: "鉴于Chrome和Chromium即将在年底停止对Flash的支持，有不少用户关心使用Chromium内核的国产浏览器是否也会相应地移除Flash的支持。对此360安全浏览器官方版主“Spirit_悔灭”做出回应。"
 permalink: /archivers/43
 isrepublish: true
 ---
 
 来源：[![360安全浏览器官方论坛-Spirit_悔灭](https://img.shields.io/badge/360安全浏览器官方论坛-Spirit_悔灭-brightgreen)](https://bbs.360.cn/forum-141-1.html)
+
+**11月12日更新：360极速浏览器产品答疑师“fly颖”回应：[“360浏览器会继续支持Flash的”](https://bbs.360.cn/forum.php?mod=viewthread&tid=15933600&page=1#pid118058892)**
 
 鉴于Chrome和Chromium即将在年底停止对Flash的支持，有不少用户关心使用Chromium内核的国产浏览器是否也会相应地移除Flash的支持。对此360安全浏览器官方版主“Spirit_悔灭”做出回应。
 > 安全浏览器会根据Flash插件的安全性和需求量评估是否保留内置的Flash插件。另外国外是禁止了内容通过Flash插件加载才会有很长一段时间（2017年发布2020年停止支持）的预先警告，既使安全浏览器不再内置Flash插件，国内仍有其他方式提供Flash插件支持的方法，所以您描述的缓冲期应该询问Flash插件官方客服“什么时候会停止支持插件维护”。安全浏览器只是一种提供支持的客户端，如果不再内置Flash插件会在版本发布时进行公告，您可以留意论坛消息。旧版本不再更新维护，不会变化。
