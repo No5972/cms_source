@@ -14,7 +14,7 @@ To capture a screenshot of a page, use the ```--screenshot```flag:
 要对页面截图，只需使用```--screenshot```参数即可：
 
 ```bash
-chrome --headless --disable-gpu --screenshot https://www.chromestatus.com/
+chrome --headless --disable-gpu --screenshot https://www.baidu.com/
 
 # Size of a standard letterhead. 标准的信件比例
 chrome --headless --disable-gpu --screenshot --window-size=1280,1696 https://www.baidu.com/
