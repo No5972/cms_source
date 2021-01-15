@@ -2,7 +2,7 @@
 layout: post
 title: "C# CEF 使用内置devtools对整个网页截图"
 date: 2020-12-17 18:00:00
-categories: Other
+categories: C#
 excerpt: "这样做的一个好处是不需要再调用Win32底层API。直接走CEF组件的方法就可以截图，也不需要专门整个OffScreen的组件，毕竟还要复制和继承，并且也占内存。而且即使是CEF视窗超出屏幕，或者被其他窗口挡住，甚至使用特殊手段把窗口调大到大于屏幕的分辨率，此方法也可以截取得到。"
 permalink: /archivers/51
 ---

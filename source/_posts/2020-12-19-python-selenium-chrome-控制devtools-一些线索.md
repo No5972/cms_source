@@ -2,7 +2,7 @@
 layout: post
 title: "Python Selenium Chrome 控制Devtools 一些线索"
 date: 2020-12-19 11:00:00
-categories: Other
+categories: Python
 excerpt: "只要浏览器的内核版本不低于webdriver的版本即可。Nuget上的最低版本是71的，所以QQ浏览器无法使用C#控制，QQ只有版本70的内核。"
 permalink: /archivers/54
 ---
