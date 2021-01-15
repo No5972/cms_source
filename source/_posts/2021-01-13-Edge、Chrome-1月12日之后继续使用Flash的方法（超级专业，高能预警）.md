@@ -8,7 +8,7 @@ permalink: /archivers/63
 ---
 
 更新：原来赛尔号吧大佬给的线索是针对AX版Flash的，如果说有需要对AX版Flash（也就是那个OCX）也希望1月12日之后继续使用的话也是用WinHex用相同的方法来修改，打开的不是DLL了，而是打开```C:\Windows\System32\Macromed\Flash\Flash.ocx```。但是一个比较严重的问题是```System32```目录下面的文件普遍设置的有文件权限，这个权限是不好修改的。
-右键```Flash.ocx```，属性，安全选项卡，高级，把所有者改成```Administrators```，然后点添加，选择主体```Administrators```，然后选中完全控制。然后一直确定。然后就可以用WinHex打开了。
+右键```Flash.ocx```，属性，安全选项卡，高级，把所有者改成```Administrators```，点击应用，然后重新加载权限窗口，然后点添加，选择主体```Administrators```，然后选中完全控制。然后一直确定。
 
 ---
 
