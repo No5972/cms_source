@@ -8,8 +8,8 @@ permalink: /archivers/65
 ---
 
 稍微简化了一下，整了一个BAT加Node.js的脚本。需要把BAT、```demo32.js```、```demo64.js```、和```node.exe```（Node.js的可执行文件）放进同一目录。然后右键BAT文件以管理员身份运行。
-BAT文件：
-```bash
+# BAT文件：
+```bat
 @echo off
 
 net.exe session 1>NUL 2>NUL && (
@@ -55,8 +55,8 @@ net.exe session 1>NUL 2>NUL && (
 	pause
 	@echo on
 ```
-```demo32.js```文件：
-```js
+# ```demo32.js```文件：
+```javascript
 'use strict';
 var exec = require('child_process').exec;
 var path = require("path") ;
@@ -112,8 +112,8 @@ fs.open(filePath, 'r', function (error, fd) {
 });
 
 ```
-```demo64.js```文件：
-```js
+# ```demo64.js```文件：
+```javascript
 'use strict';
 var exec = require('child_process').exec;
 var path = require("path") ;
