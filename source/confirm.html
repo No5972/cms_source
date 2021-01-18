@@ -1,0 +1,16 @@
+<p>This hyperlink points to <span style="color:red" id="link"></span>, which does NOT belong to this site. Please confirm whether you are about to visit this.</p>
+<style>
+#valine-comments {
+	display: none !important;
+}
+</style>
+<center>
+<a class="btn" rel="contents" id="yesBtn">Yes</a>
+<a class="btn" rel="contents" id="noBtn" onclick="window.open('','_self').close()">No</a>
+</center>
+
+<script>
+document.getElementById("link").innerText = location.href.substring(location.href.indexOf("?") + 1);
+document.getElementById("yesBtn").href = location.href.substring(location.href.indexOf("?") + 1);
+document.getElementsByClassName("post-title")[0].innerText = "Please pay attention to the safety of your account and property";
+</script>
