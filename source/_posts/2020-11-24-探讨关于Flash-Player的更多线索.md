@@ -10,6 +10,7 @@ top: 100
 
 Flash即将在2020年底停止支持。如果仍然有一些业内业务需要Flash我們应该如何应对，这里找到了更多的线索。
 1. 21.01.18更新：淘米已经更新了[新的赛尔号微端](http://dl.61.com/seer/Seer.msi)，经过实测已经可以在移除了Flash的机器使用。微端集成的是版本27的Flash，无弹窗广告和隐私服务。
+    * 大致看了一下文件结构，技术细节应该是走的内嵌Mozilla浏览器加载NPAPI Flash。博客园那边也有不少相关文章讨论这方面内容。[.net winform程序下使用firefox作为Web浏览器](https://www.cnblogs.com/chengzi/p/4497692.html)、[C#使用Gecko实现浏览器](https://www.cnblogs.com/deali/p/6426593.html) 
 2. 21.01.18更新：[西西软件园已将吾爱破解论坛上的Flash破解补丁整合打包](https://www.cr173.com/soft/1311482.html)，有出现Flash无法使用的用户可以尝试使用，[注意一定要先看说明。](https://www.52pojie.cn/thread-1350285-1-1.html)
     * 此补丁中的Flash恢复包的OCX控件是32.0.0.445版本的，并且已经修改掉了自毁的定时器（也是通过最后的```42```字节改成```72```），注意此恢复包仅适用于安装了KB4577586“移除Flash的系统更新”的机器，未安装此更新的机器不要安装，否则会出现无法恢复的异常情况。
 3. 21.01.13更新：百分浏览器论坛官方[推荐使用32.0.0.371版本](https://www.centbrowser.net/zh-cn/forum.php?mod=viewthread&tid=6719&extra=page%3D1)。猜测此版本也没有自毁。论坛超版回应：[看到有大佬实测最后一个能用的国际版版本是 32.0.0.371](https://www.centbrowser.net/zh-cn/forum.php?mod=redirect&goto=findpost&ptid=8423&pid=49387)。
