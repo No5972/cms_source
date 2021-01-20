@@ -12,6 +12,7 @@ Flash即将在2020年底停止支持。如果仍然有一些业内业务需要Fl
 1. 21.01.20更新：Chrome今天已经正式更新了88版本，Flash已经无法再继续使用。Chrome的网上应用店出现了一款可以使用H5替代方案播放Flash内容的扩展[《FlashPlayer - SWF to HTML》](https://chrome.google.com/webstore/detail/flashplayer-swf-to-html/nodnmpgjlnclahkmgjiinfjklgbbgecg/)。此扩展会检测当前网页有无Flash对象，若有，则可以点击工具栏上的该扩展图标，即可以H5形式来播放Flash内容。
     * 该扩展整合了当前两种常用的开源替代方案来播放Flash内容。[Ruffle](https://ruffle.rs/)和[SWF2JS](https://swf2js.com/)。使用过程中可通过右击工具栏上该扩展图标来切换渲染方式。
     * 由于Ruffle目前尚未支持Action Script 3.0，所以使用AS3的Flash内容可能无法正常运作。
+    * SWF2JS的免费版尚未提供对AS3的支持；收费版则支持了90%的AS3，并且也提供了Stage3D、Socket、FLV、MP4的支持。
 2. 21.01.19更新：淘米已经更新了[新的小花仙微端](http://dl.61.com/hua/WeHua.msi)。经过实测已经可以在移除了Flash 的机器使用。
     * 但此微端体积较大，安装后占用约250MB磁盘空间。
     * 此微端使用Electron开发，目前暂时还没有实现画面缩放和截图功能。
