@@ -7,8 +7,10 @@ excerpt: "先别管那么多，根据计算机常识，数据通常是小端存�
 permalink: /archivers/63
 ---
 
+# Flash已经停止维护了，大家能不用Flash就尽量不要用Flash，停止维护之后此组件会非常不安全！
 更新：原来赛尔号吧大佬给的线索是针对AX版Flash的，如果说有需要对AX版Flash（也就是那个OCX）也希望1月12日之后继续使用的话也是用WinHex用相同的方法来修改，打开的不是DLL了，而是打开```C:\Windows\System32\Macromed\Flash\Flash.ocx```。但是一个比较严重的问题是```System32```目录下面的文件普遍设置的有文件权限，这个权限是不好修改的。
 右键```Flash.ocx```，属性，安全选项卡，高级，把所有者改成```Administrators```，点击应用，然后重新加载权限窗口，然后点添加，选择主体```Administrators```，然后选中完全控制。然后一直确定。
+实在怕改权限麻烦的话可以参考鄙人下一篇文章[AX版Flash 1月12日之后继续使用Flash的方法](65.html)把那个批处理和两个Node.js脚本连同Node.js的可执行文件放一起然后右键BAT以管理员身份运行。**注意这个链接是针对AX版的，而不是给Edge、Chrome用的。给Edge、Chrome用的请看下文内容。**
 
 ---
 

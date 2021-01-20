@@ -7,6 +7,7 @@ excerpt: "稍微简化了一下，整了一个BAT加Node.js的脚本。需要把
 permalink: /archivers/65
 ---
 
+# Flash已经停止维护了，大家能不用Flash就尽量不要用Flash，停止维护之后此组件会非常不安全！
 稍微简化了一下，整了一个BAT加Node.js的脚本。需要把BAT、```demo32.js```、```demo64.js```、和```node.exe```（Node.js的可执行文件）放进同一目录。然后右键BAT文件以管理员身份运行。
 # BAT文件：
 ```bat
