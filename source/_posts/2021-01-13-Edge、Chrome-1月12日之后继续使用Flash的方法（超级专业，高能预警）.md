@@ -18,7 +18,7 @@ permalink: /archivers/63
 
 注意，修改之前请先这个文件备好份，万一改错了还能还原！
 
-因为1月21日更新之后Edge就不再支持Flash了，改好之后的文件和附带的那个```manifest.json```最好也备个份，到时候可以拷贝到别的浏览器里面继续使用！
+~~因为1月21日更新之后Edge就不再支持Flash了，改好之后的文件和附带的那个```manifest.json```最好也备个份，到时候可以拷贝到别的浏览器里面继续使用！~~ 22号Edge已经更新了88版本，已经不再支持Flash了。请大家下载绿色版Chrome来使用Flash，有不少绿色版Chrome内置了旧版的Flash Player。
 
 我们用WinHex打开Edge浏览器里面的```pepflashplayer.dll```，搜索，查找十六进制数值，把刚才那个十六进制码输入进去（不要空格）。果不其然，在PPAPI的DLL里面也发现了这个十六进制码！![在这里插入图片描述](https://img-blog.csdnimg.cn/20210113015442928.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM1OTc3MTM5,size_16,color_FFFFFF,t_70#pic_center)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210113015704386.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM1OTc3MTM5,size_16,color_FFFFFF,t_70#pic_center)
