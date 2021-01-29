@@ -25,7 +25,7 @@ print_hi('Tom')
 
 And $\mathcal{ Mathematics }$ is supported!
 
-Use `$$` to wrap your formulas. For example, `$ e^{i\pi} + 1 = 0 $` displays $  e^{i\pi} + 1 = 0  $
+Use `$$` to wrap your formulas. For example, `$e^{i\pi} + 1 = 0$` displays $e^{i\pi} + 1 = 0$
 
 Multi-line forumlas are supported too.
 
