@@ -10,8 +10,20 @@
 </center>
 
 <script>
+var whiteList = ['https://blog.csdn.net', 'https://curl.qcloud.com', 'https://github.com', 'https://stackoverflow.com', 'https://space.bilibili.com', 'https://tieba.baidu.com'];
+var verification = location.href.substring(location.href.indexOf("?") + 1);
+
+for (var x in whiteList) {
+	if (verification.startsWith(whiteList[x])) {
+		location.href = verification;
+		break;
+	} else if (x == whiteList.length - 1) {
+		document.getElementsByTagName("title")[0].innerText = "You are leaving the original site | No.5972 Publishment Website";
+	}
+}
+
 document.getElementById("link").innerText = location.href.substring(location.href.indexOf("?") + 1);
 document.getElementById("yesBtn").href = location.href.substring(location.href.indexOf("?") + 1);
 document.getElementsByClassName("post-title")[0].innerText = "Please pay attention to the safety of your account and property";
-document.getElementsByTagName("title")[0].innerText = "You are leaving the original site | No.5972 Publishment Website";
+
 </script>
