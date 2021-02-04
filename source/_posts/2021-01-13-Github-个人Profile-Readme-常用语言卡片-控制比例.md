@@ -2,7 +2,7 @@
 layout: post
 title: "Github 个人Profile Readme 常用语言卡片 控制比例"
 date: 2021-01-13 18:00:00
-categories: Other
+categories: Github
 excerpt: "和之前的控制仓库语言的原理是一样的，这个功能也是通过统计代码量来统计常用语言的占比。所以我們仍然需要使用各个仓库的.gitattributes文件的linguist-language=XXX以及linguist-vendored（后者特别注意）。"
 permalink: /archivers/64
 ---

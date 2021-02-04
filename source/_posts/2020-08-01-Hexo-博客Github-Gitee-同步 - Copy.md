@@ -2,7 +2,9 @@
 layout: post
 title:  "Hexo 博客Github、Gitee同步"
 date:   2020-08-01 17:30:00
-categories: Web-Building
+categories: 
+ - [Web-Building]
+ - [Github]
 excerpt: Github在国内访问还是偏慢的，尽管我们将所有能弄的静态资源都移到拥有国内节点的JSDelivr上了。这里决定将博客在Gitee建立一个镜像，这样如果国内访问太慢的话我们可以从Gitee也就是“码云”来访问网站。
 permalink: /archivers/18
 ---

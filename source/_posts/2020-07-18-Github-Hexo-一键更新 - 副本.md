@@ -2,7 +2,9 @@
 layout: post
 title:  "Github Hexo 一键更新"
 date:   2020-07-18 01:00:00
-categories: Web-Building
+categories: 
+ - [Web-Building]
+ - [Github]
 excerpt: 这个博客换成Hexo后台之后变成了绑定3个仓库：展示仓库，后台仓库，主题仓库。结果每次更新需要输入3个密码，很不方便。整合各路搜集到的资料之后总结出来一套一键更新的方案，可以一次性同步后台代码、主题代码和展示代码。
 permalink: /archivers/16
 ---
