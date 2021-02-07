@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jfcherng/Noto-Serif-TC-CSS@4.0.0/noto_serif_tc_regular/css.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jfcherng/Noto-Serif-TC-CSS@4.0.0/noto_serif_tc_bold/css.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jfcherng/Noto-Serif-SC-CSS@4.0.0/noto_serif_sc_regular/css.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jfcherng/Noto-Serif-SC-CSS@4.0.0/noto_serif_sc_bold/css.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+<style> 
+.level1 {animation:level-animation-1 20s infinite linear;}
+.level2 {animation:level-animation-2 20s infinite linear;}
+.level3 {animation:level-animation-3 20s infinite linear;}
+.level4 {animation:level-animation-4 20s infinite linear;}
+.level5 {animation:level-animation-5 20s infinite linear;}
+.level6 {animation:level-animation-6 20s infinite linear;}
+.level7 {animation:level-animation-7 20s infinite linear;}
+.level8 {animation:level-animation-8 20s infinite linear;}
+.level9 {animation:level-animation-9 20s infinite linear;}
+.level10{animation:level-animation-10 20s infinite linear;}
+.level11{animation:level-animation-11 20s infinite linear;}
+.level12{animation:level-animation-12 20s infinite linear;}
+.level13{animation:level-animation-13 20s infinite linear;}
+.level14{animation:level-animation-14 20s infinite linear;}
+.level15{animation:level-animation-15 20s infinite linear;}
+.level16{animation:level-animation-16 20s infinite linear;}
+.level17{animation:level-animation-17 20s infinite linear;}
+.level18{animation:level-animation-18 20s infinite linear;}
+.level19{animation:level-animation-19 20s infinite linear;}
+.level20{animation:level-animation-20 20s infinite linear;}
+
+#d1-1 {width:102px;height:100px;position:absolute;left:0;top:0;}
+#d2-1 {width:102px;height:100px;position:absolute;left:100px;top:0;}
+#d3-1 {width:102px;height:100px;position:absolute;left:200px;top:0;}
+#d4-1 {width:102px;height:100px;position:absolute;left:300px;top:0;}
+#d5-1 {width:102px;height:100px;position:absolute;left:400px;top:0;}
+#d6-1 {width:102px;height:100px;position:absolute;left:500px;top:0;}
+#d7-1 {width:102px;height:100px;position:absolute;left:600px;top:0;}
+#d8-1 {width:102px;height:100px;position:absolute;left:700px;top:0;}
+#d9-1 {width:102px;height:100px;position:absolute;left:800px;top:0;}
+#d10-1 {width:102px;height:100px;position:absolute;left:900px;top:0;}
+#d11-1 {width:102px;height:100px;position:absolute;left:1000px;top:0;}
+#d12-1 {width:102px;height:100px;position:absolute;left:1100px;top:0;}
+#d13-1 {width:102px;height:100px;position:absolute;left:1200px;top:0;}
+#d14-1 {width:102px;height:100px;position:absolute;left:1300px;top:0;}
+#d15-1 {width:100px;height:100px;position:absolute;left:1400px;top:0;}
+
+#d1-2 {width:102px;height:100px;position:absolute;left:0;top:100px;}
+#d2-2 {width:102px;height:100px;position:absolute;left:100px;top:100px;}
+#d3-2 {width:102px;height:100px;position:absolute;left:200px;top:100px;}
+#d4-2 {width:102px;height:100px;position:absolute;left:300px;top:100px;}
+#d5-2 {width:102px;height:100px;position:absolute;left:400px;top:100px;}
+#d6-2 {width:102px;height:100px;position:absolute;left:500px;top:100px;}
+#d7-2 {width:102px;height:100px;position:absolute;left:600px;top:100px;}
+#d8-2 {width:102px;height:100px;position:absolute;left:700px;top:100px;}
+#d9-2 {width:102px;height:100px;position:absolute;left:800px;top:100px;}
+#d10-2 {width:102px;height:100px;position:absolute;left:900px;top:100px;}
+#d11-2 {width:102px;height:100px;position:absolute;left:1000px;top:100px;}
+#d12-2 {width:102px;height:100px;position:absolute;left:1100px;top:100px;}
+#d13-2 {width:102px;height:100px;position:absolute;left:1200px;top:100px;}
+#d14-2 {width:102px;height:100px;position:absolute;left:1300px;top:100px;}
+#d15-2 {width:100px;height:100px;position:absolute;left:1400px;top:100px;}
+
+#d1-3 {width:102px;height:100px;position:absolute;left:0;top:200px;}
+#d2-3 {width:102px;height:100px;position:absolute;left:100px;top:200px;}
+#d3-3 {width:102px;height:100px;position:absolute;left:200px;top:200px;}
+#d4-3 {width:102px;height:100px;position:absolute;left:300px;top:200px;}
+#d5-3 {width:102px;height:100px;position:absolute;left:400px;top:200px;}
+#d6-3 {width:102px;height:100px;position:absolute;left:500px;top:200px;}
+#d7-3 {width:102px;height:100px;position:absolute;left:600px;top:200px;}
+#d8-3 {width:102px;height:100px;position:absolute;left:700px;top:200px;}
+#d9-3 {width:102px;height:100px;position:absolute;left:800px;top:200px;}
+#d10-3 {width:102px;height:100px;position:absolute;left:900px;top:200px;}
+#d11-3 {width:102px;height:100px;position:absolute;left:1000px;top:200px;}
+#d12-3 {width:102px;height:100px;position:absolute;left:1100px;top:200px;}
+#d13-3 {width:102px;height:100px;position:absolute;left:1200px;top:200px;}
+#d14-3 {width:102px;height:100px;position:absolute;left:1300px;top:200px;}
+#d15-3 {width:100px;height:100px;position:absolute;left:1400px;top:200px;}
+
+#d1-4 {width:102px;height:100px;position:absolute;left:0;top:300px;}
+#d2-4 {width:102px;height:100px;position:absolute;left:100px;top:300px;}
+#d3-4 {width:102px;height:100px;position:absolute;left:200px;top:300px;}
+#d4-4 {width:102px;height:100px;position:absolute;left:300px;top:300px;}
+#d5-4 {width:102px;height:100px;position:absolute;left:400px;top:300px;}
+#d6-4 {width:102px;height:100px;position:absolute;left:500px;top:300px;}
+#d7-4 {width:102px;height:100px;position:absolute;left:600px;top:300px;}
+#d8-4 {width:102px;height:100px;position:absolute;left:700px;top:300px;}
+#d9-4 {width:102px;height:100px;position:absolute;left:800px;top:300px;}
+#d10-4 {width:102px;height:100px;position:absolute;left:900px;top:300px;}
+#d11-4 {width:102px;height:100px;position:absolute;left:1000px;top:300px;}
+#d12-4 {width:102px;height:100px;position:absolute;left:1100px;top:300px;}
+#d13-4 {width:102px;height:100px;position:absolute;left:1200px;top:300px;}
+#d14-4 {width:102px;height:100px;position:absolute;left:1300px;top:300px;}
+#d15-4 {width:100px;height:100px;position:absolute;left:1400px;top:300px;}
+
+#d1-5 {width:102px;height:100px;position:absolute;left:0;top:400px;}
+#d2-5 {width:102px;height:100px;position:absolute;left:100px;top:400px;}
+#d3-5 {width:102px;height:100px;position:absolute;left:200px;top:400px;}
+#d4-5 {width:102px;height:100px;position:absolute;left:300px;top:400px;}
+#d5-5 {width:102px;height:100px;position:absolute;left:400px;top:400px;}
+#d6-5 {width:102px;height:100px;position:absolute;left:500px;top:400px;}
+#d7-5 {width:102px;height:100px;position:absolute;left:600px;top:400px;}
+#d8-5 {width:102px;height:100px;position:absolute;left:700px;top:400px;}
+#d9-5 {width:102px;height:100px;position:absolute;left:800px;top:400px;}
+#d10-5 {width:102px;height:100px;position:absolute;left:900px;top:400px;}
+#d11-5 {width:102px;height:100px;position:absolute;left:1000px;top:400px;}
+#d12-5 {width:102px;height:100px;position:absolute;left:1100px;top:400px;}
+#d13-5 {width:102px;height:100px;position:absolute;left:1200px;top:400px;}
+#d14-5 {width:102px;height:100px;position:absolute;left:1300px;top:400px;}
+#d15-5 {width:100px;height:100px;position:absolute;left:1400px;top:400px;}
+
+#d1-6 {width:102px;height:100px;position:absolute;left:0;top:500px;}
+#d2-6 {width:102px;height:100px;position:absolute;left:100px;top:500px;}
+#d3-6 {width:102px;height:100px;position:absolute;left:200px;top:500px;}
+#d4-6 {width:102px;height:100px;position:absolute;left:300px;top:500px;}
+#d5-6 {width:102px;height:100px;position:absolute;left:400px;top:500px;}
+#d6-6 {width:102px;height:100px;position:absolute;left:500px;top:500px;}
+#d7-6 {width:102px;height:100px;position:absolute;left:600px;top:500px;}
+#d8-6 {width:102px;height:100px;position:absolute;left:700px;top:500px;}
+#d9-6 {width:102px;height:100px;position:absolute;left:800px;top:500px;}
+#d10-6 {width:102px;height:100px;position:absolute;left:900px;top:500px;}
+#d11-6 {width:102px;height:100px;position:absolute;left:1000px;top:500px;}
+#d12-6 {width:102px;height:100px;position:absolute;left:1100px;top:500px;}
+#d13-6 {width:102px;height:100px;position:absolute;left:1200px;top:500px;}
+#d14-6 {width:102px;height:100px;position:absolute;left:1300px;top:500px;}
+#d15-6 {width:100px;height:100px;position:absolute;left:1400px;top:500px;}
+
+#d1-7 {width:102px;height:100px;position:absolute;left:0;top:600px;}
+#d2-7 {width:102px;height:100px;position:absolute;left:100px;top:600px;}
+#d3-7 {width:102px;height:100px;position:absolute;left:200px;top:600px;}
+#d4-7 {width:102px;height:100px;position:absolute;left:300px;top:600px;}
+#d5-7 {width:102px;height:100px;position:absolute;left:400px;top:600px;}
+#d6-7 {width:102px;height:100px;position:absolute;left:500px;top:600px;}
+#d7-7 {width:102px;height:100px;position:absolute;left:600px;top:600px;}
+#d8-7 {width:102px;height:100px;position:absolute;left:700px;top:600px;}
+#d9-7 {width:102px;height:100px;position:absolute;left:800px;top:600px;}
+#d10-7 {width:102px;height:100px;position:absolute;left:900px;top:600px;}
+#d11-7 {width:102px;height:100px;position:absolute;left:1000px;top:600px;}
+#d12-7 {width:102px;height:100px;position:absolute;left:1100px;top:600px;}
+#d13-7 {width:102px;height:100px;position:absolute;left:1200px;top:600px;}
+#d14-7 {width:102px;height:100px;position:absolute;left:1300px;top:600px;}
+#d15-7 {width:100px;height:100px;position:absolute;left:1400px;top:600px;}
+
+#d1-8 {width:102px;height:100px;position:absolute;left:0;top:700px;}
+#d2-8 {width:102px;height:100px;position:absolute;left:100px;top:700px;}
+#d3-8 {width:102px;height:100px;position:absolute;left:200px;top:700px;}
+#d4-8 {width:102px;height:100px;position:absolute;left:300px;top:700px;}
+#d5-8 {width:102px;height:100px;position:absolute;left:400px;top:700px;}
+#d6-8 {width:102px;height:100px;position:absolute;left:500px;top:700px;}
+#d7-8 {width:102px;height:100px;position:absolute;left:600px;top:700px;}
+#d8-8 {width:102px;height:100px;position:absolute;left:700px;top:700px;}
+#d9-8 {width:102px;height:100px;position:absolute;left:800px;top:700px;}
+#d10-8 {width:102px;height:100px;position:absolute;left:900px;top:700px;}
+#d11-8 {width:102px;height:100px;position:absolute;left:1000px;top:700px;}
+#d12-8 {width:102px;height:100px;position:absolute;left:1100px;top:700px;}
+#d13-8 {width:102px;height:100px;position:absolute;left:1200px;top:700px;}
+#d14-8 {width:102px;height:100px;position:absolute;left:1300px;top:700px;}
+#d15-8 {width:100px;height:100px;position:absolute;left:1400px;top:700px;}
+
+#d1-9 {width:102px;height:100px;position:absolute;left:0;top:800px;}
+#d2-9 {width:102px;height:100px;position:absolute;left:100px;top:800px;}
+#d3-9 {width:102px;height:100px;position:absolute;left:200px;top:800px;}
+#d4-9 {width:102px;height:100px;position:absolute;left:300px;top:800px;}
+#d5-9 {width:102px;height:100px;position:absolute;left:400px;top:800px;}
+#d6-9 {width:102px;height:100px;position:absolute;left:500px;top:800px;}
+#d7-9 {width:102px;height:100px;position:absolute;left:600px;top:800px;}
+#d8-9 {width:102px;height:100px;position:absolute;left:700px;top:800px;}
+#d9-9 {width:102px;height:100px;position:absolute;left:800px;top:800px;}
+#d10-9 {width:102px;height:100px;position:absolute;left:900px;top:800px;}
+#d11-9 {width:102px;height:100px;position:absolute;left:1000px;top:800px;}
+#d12-9 {width:102px;height:100px;position:absolute;left:1100px;top:800px;}
+#d13-9 {width:102px;height:100px;position:absolute;left:1200px;top:800px;}
+#d14-9 {width:102px;height:100px;position:absolute;left:1300px;top:800px;}
+#d15-9 {width:100px;height:100px;position:absolute;left:1400px;top:800px;}
+
+body {
+-webkit-text-size-adjust: none;
+text-size-adjust: none
+}
+
+#container {
+transform-origin: 0 0;
+position: absolute;
+left: 0;
+top: 0;
+}
+
+#jjbc {
+z-index: 1;
+position: absolute;
+font-family: "DIN-Bold";
+left: 0;
+top: 250px;
+padding: 25px;
+width: 1450px;
+height: 350px;
+background: #69e3f4;
+animation: bg 0.7s;
+}
+
+#jjbc-t {
+font-size: 100px;
+color: #003ab3;
+margin-top: 100px;
+margin-left: 25px;
+font-weight: bold;
+animation: jjbc-t-a 0.7s;
+}
+
+#text-bg {
+z-index: 2;
+position: absolute;
+left: 400px;
+top: 250px;
+width: 1050px;
+height: 400px;
+background: #f1f7f9;
+overflow: hidden;
+animation: text-bg-a 0.7s;
+}
+
+#text-wrapper {
+z-index: 3;
+position: absolute;
+left: 400px;
+top: 250px;
+width: 1050px;
+height: 400px;
+background: transparent;
+overflow: hidden;
+}
+
+#text {
+display: block;
+margin-left: 30px;
+transform: translateY(0px);
+animation: text-scroll 35s linear infinite;
+}
+
+#text p {
+margin-top: 120px;
+margin-bottom: 200px;
+font-family: 'FreeSerif', 'DIN-Bold', "PingFang SC", "Noto Serif TC", "Noto Serif SC", sans-serif;
+font-size: 20px;
+}
+
+#text p a {
+color: #000;
+}
+
+#text p a:hover {
+color: #007ff3;
+}
+
+#text p a:visited {
+color: #000;
+}
+
+.title { 
+font-size: 30px; 
+font-family: DIN-Bold;
+color: #003ab3;
+}
+
+#music-btn {
+z-index: 4;
+position: absolute;
+left: 180px;
+top: 110px;
+width: 40px;
+height: 40px;
+color: white;
+border: 2px solid white;
+text-align: center;
+border-radius: 50px;
+cursor: pointer;
+}
+
+#return-btn {
+z-index: 4;
+position: absolute;
+left: 110px;
+top: 110px;
+width: 40px;
+height: 40px;
+color: white;
+border: 2px solid white;
+text-align: center;
+border-radius: 50px;
+cursor: pointer;
+}
+
+.fa {
+vertical-align: -60%;
+}
+
+.twisting {
+animation: twisting 3s linear infinite;
+}
+
+.bottom {
+font-family: DIN-Bold;
+z-index: 4;
+position: absolute;
+left: 0;
+top: 800px;
+width: 1500px;
+text-align: center;
+color: white;
+text-shadow: 1px 1px 1px black;
+}
+
+.bottom p a {
+color: white;
+}
+
+.bottom p a:hover {
+color: #007ff3;
+}
+
+.bottom p a:visited {
+color: white;
+}
+
+
+    @font-face
+    {
+      font-family: DIN-Bold;
+      src: url('https://cdn.jsdelivr.net/gh/No5972/Live2D@10/din-bold-2.otf'); /* IE9+ */
+    }
+
+    @font-face
+    {
+        font-family: FreeSerif;
+        src: url('https://cdn.jsdelivr.net/gh/No5972/Live2D@22/FreeSerif.otf');
+        font-style: normal;
+        font-weight: normal;
+    }
+	
+@font-face
+{
+    font-family: FreeSerif;
+    src: url('https://cdn.jsdelivr.net/gh/No5972/Live2D@22/FreeSerif.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+    
+@font-face
+{
+    font-family: FreeSerif;
+    src: url('https://cdn.jsdelivr.net/gh/No5972/Live2D@22/FreeSerifBold.otf');
+    font-style: normal;
+    font-weight: bold;
+}
+    
+@font-face
+{
+    font-family: FreeSerif;
+    src: url('https://cdn.jsdelivr.net/gh/No5972/Live2D@22/FreeSerifItalic.otf');
+    font-style: italic;
+    font-weight: normal;
+}
+    
+@font-face
+{
+    font-family: FreeSerif;
+    src: url('https://cdn.jsdelivr.net/gh/No5972/Live2D@22/FreeSerifBoldItalic.otf');
+    font-style: italic;
+    font-weight: bold;
+}
+
+@keyframes level-animation-1 {0% {background:#06409d;}50% {background:#61cdec;}100% {background:#06409d;}}
+@keyframes level-animation-2 {0% {background:#0d4ba3;}45% {background:#61cdec;}50% {background:#5cc5e8;}95% {background:#06409d;}100% {background:#0d4ba3;}}
+@keyframes level-animation-3 {0% {background:#1355a9;}40% {background:#61cdec;}50% {background:#56bce3;}90% {background:#06409d;}100% {background:#1355a9;}}
+@keyframes level-animation-4 {0% {background:#195eae;}35% {background:#61cdec;}50% {background:#50b3de;}85% {background:#06409d;}100% {background:#195eae;}}
+@keyframes level-animation-5 {0% {background:#2d7cbf;}30% {background:#61cdec;}50% {background:#439fd3;}80% {background:#06409d;}100% {background:#2d7cbf;}}
+@keyframes level-animation-6 {0% {background:#398fca;}25% {background:#61cdec;}50% {background:#398fca;}75% {background:#06409d;}100% {background:#398fca;}}
+@keyframes level-animation-7 {0% {background:#439fd3;}20% {background:#61cdec;}50% {background:#2d7cbf;}70% {background:#06409d;}100% {background:#439fd3;}}
+@keyframes level-animation-8 {0% {background:#50b3de;}15% {background:#61cdec;}50% {background:#195eae;}65% {background:#06409d;}100% {background:#50b3de;}}
+@keyframes level-animation-9 {0% {background:#56bce3;}10% {background:#61cdec;}50% {background:#1355a9;}60% {background:#06409d;}100% {background:#56bce3;}}
+@keyframes level-animation-10{0% {background:#5cc5e8;}5%  {background:#61cdec;}50% {background:#0d4ba3;}55% {background:#06409d;}100% {background:#5cc5e8;}}
+@keyframes level-animation-11{0% {background:#61cdec;}50% {background:#06409d;}100% {background:#61cdec;}}
+@keyframes level-animation-12{0% {background:#5cc5e8;}45%  {background:#06409d;}50% {background:#0d4ba3;}95% {background:#61cdec;}100% {background:#5cc5e8;}}
+@keyframes level-animation-13{0% {background:#56bce3;}40%  {background:#06409d;}50% {background:#1355a9;}90% {background:#61cdec;}100% {background:#56bce3;}}
+@keyframes level-animation-14{0% {background:#50b3de;}35%  {background:#06409d;}50% {background:#195eae;}85% {background:#61cdec;}100% {background:#50b3de;}}
+@keyframes level-animation-15{0% {background:#439fd3;}30%  {background:#06409d;}50% {background:#2d7cbf;}80% {background:#61cdec;}100% {background:#439fd3;}}
+@keyframes level-animation-16{0% {background:#398fca;}30%  {background:#06409d;}50% {background:#398fca;}75% {background:#61cdec;}100% {background:#398fca;}}
+@keyframes level-animation-17{0% {background:#2d7cbf;}25%  {background:#06409d;}50% {background:#439fd3;}70% {background:#61cdec;}100% {background:#2d7cbf;}}
+@keyframes level-animation-18{0% {background:#195eae;}20%  {background:#06409d;}50% {background:#50b3de;}65% {background:#61cdec;}100% {background:#195eae;}}
+@keyframes level-animation-19{0% {background:#1355a9;}15%  {background:#06409d;}50% {background:#56bce3;}60% {background:#61cdec;}100% {background:#1355a9;}}
+@keyframes level-animation-20{0% {background:#06409d;}10%  {background:#06409d;}50% {background:#5cc5e8;}55% {background:#61cdec;}100% {background:#06409d;}}
+
+@keyframes bg {0% {width: 0px} 50% {width: 600px;} 100% {width: 1450px;}}
+
+@keyframes jjbc-t-a {0% {opacity: 0; transform: translateX(-100px);} 29% {opacity: 0; transform: translateX(-100px);} 30% {opacity: 1; transform: translateX(-100px);} 100% {opacity: 1; transform: translateX(0px);}}
+
+@keyframes text-bg-a {0% {transform: translateX(-800px) scaleX(0.1);} 15% {transform: translateX(-800px) scaleX(0.1);}100% {transform: translateX(0px) scaleX(1);}}
+
+@keyframes text-scroll {
+0% {transform: translateY(400px);}
+3% {transform: translateY(0px);}
+25% {transform: translateY(0px);}
+28% {transform: translateY(-335px);}
+50% {transform: translateY(-335px);}
+53% {transform: translateY(-775px);}
+75% {transform: translateY(-775px);}
+78% {transform: translateY(-1325px);}
+97% {transform: translateY(-1325px);}
+100% {transform: translateY(-1700px);}
+}
+
+@keyframes twisting {0% {transform: rotate(0deg);} 25% {transform: rotate(90deg);} 50% {transform: rotate(180deg);} 75% {transform: rotate(270deg);} 100% {transform: rotate(360deg);}}
+
+</style>
+</head>
+<body>
+
+<div id="container"> <!-- totally 9 lines -->
+<div class="level1" id="d1-1"></div>
+<div class="level2" id="d2-1"></div>
+<div class="level3" id="d3-1"></div>
+<div class="level4" id="d4-1"></div>
+<div class="level5" id="d5-1"></div>
+<div class="level6" id="d6-1"></div>
+<div class="level7" id="d7-1"></div>
+<div class="level8" id="d8-1"></div>
+<div class="level9" id="d9-1"></div>
+<div class="level10" id="d10-1"></div>
+<div class="level11" id="d11-1"></div>
+<div class="level12" id="d12-1"></div>
+<div class="level13" id="d13-1"></div>
+<div class="level14" id="d14-1"></div>
+<div class="level15" id="d15-1"></div>
+
+<div class="level2" id="d1-2"></div>
+<div class="level3" id="d2-2"></div>
+<div class="level4" id="d3-2"></div>
+<div class="level5" id="d4-2"></div>
+<div class="level6" id="d5-2"></div>
+<div class="level7" id="d6-2"></div>
+<div class="level8" id="d7-2"></div>
+<div class="level9" id="d8-2"></div>
+<div class="level10" id="d9-2"></div>
+<div class="level11" id="d10-2"></div>
+<div class="level12" id="d11-2"></div>
+<div class="level13" id="d12-2"></div>
+<div class="level14" id="d13-2"></div>
+<div class="level15" id="d14-2"></div>
+<div class="level16" id="d15-2"></div>
+
+<div class="level5" id="d1-3"></div>
+<div class="level6" id="d2-3"></div>
+<div class="level7" id="d3-3"></div>
+<div class="level8" id="d4-3"></div>
+<div class="level9" id="d5-3"></div>
+<div class="level10" id="d6-3"></div>
+<div class="level11" id="d7-3"></div>
+<div class="level12" id="d8-3"></div>
+<div class="level13" id="d9-3"></div>
+<div class="level14" id="d10-3"></div>
+<div class="level15" id="d11-3"></div>
+<div class="level16" id="d12-3"></div>
+<div class="level17" id="d13-3"></div>
+<div class="level18" id="d14-3"></div>
+<div class="level19" id="d15-3"></div>
+
+<div class="level4" id="d1-4"></div>
+<div class="level5" id="d2-4"></div>
+<div class="level6" id="d3-4"></div>
+<div class="level7" id="d4-4"></div>
+<div class="level8" id="d5-4"></div>
+<div class="level9" id="d6-4"></div>
+<div class="level10" id="d7-4"></div>
+<div class="level11" id="d8-4"></div>
+<div class="level12" id="d9-4"></div>
+<div class="level13" id="d10-4"></div>
+<div class="level14" id="d11-4"></div>
+<div class="level15" id="d12-4"></div>
+<div class="level16" id="d13-4"></div>
+<div class="level17" id="d14-4"></div>
+<div class="level18" id="d15-4"></div>
+
+<div class="level17" id="d1-5"></div>
+<div class="level18" id="d2-5"></div>
+<div class="level19" id="d3-5"></div>
+<div class="level1" id="d4-5"></div>
+<div class="level2" id="d5-5"></div>
+<div class="level3" id="d6-5"></div>
+<div class="level4" id="d7-5"></div>
+<div class="level5" id="d8-5"></div>
+<div class="level6" id="d9-5"></div>
+<div class="level7" id="d10-5"></div>
+<div class="level8" id="d11-5"></div>
+<div class="level9" id="d12-5"></div>
+<div class="level10" id="d13-5"></div>
+<div class="level11" id="d14-5"></div>
+<div class="level12" id="d15-5"></div>
+
+<div class="level15" id="d1-6"></div>
+<div class="level16" id="d2-6"></div>
+<div class="level17" id="d3-6"></div>
+<div class="level18" id="d4-6"></div>
+<div class="level19" id="d5-6"></div>
+<div class="level1" id="d6-6"></div>
+<div class="level2" id="d7-6"></div>
+<div class="level3" id="d8-6"></div>
+<div class="level4" id="d9-6"></div>
+<div class="level5" id="d10-6"></div>
+<div class="level6" id="d11-6"></div>
+<div class="level7" id="d12-6"></div>
+<div class="level8" id="d13-6"></div>
+<div class="level9" id="d14-6"></div>
+<div class="level10" id="d15-6"></div>
+
+<div class="level5" id="d1-7"></div>
+<div class="level6" id="d2-7"></div>
+<div class="level7" id="d3-7"></div>
+<div class="level8" id="d4-7"></div>
+<div class="level9" id="d5-7"></div>
+<div class="level10" id="d6-7"></div>
+<div class="level11" id="d7-7"></div>
+<div class="level12" id="d8-7"></div>
+<div class="level13" id="d9-7"></div>
+<div class="level14" id="d10-7"></div>
+<div class="level15" id="d11-7"></div>
+<div class="level16" id="d12-7"></div>
+<div class="level17" id="d13-7"></div>
+<div class="level18" id="d14-7"></div>
+<div class="level19" id="d15-7"></div>
+
+<div class="level4" id="d1-8"></div>
+<div class="level5" id="d2-8"></div>
+<div class="level6" id="d3-8"></div>
+<div class="level7" id="d4-8"></div>
+<div class="level8" id="d5-8"></div>
+<div class="level9" id="d6-8"></div>
+<div class="level10" id="d7-8"></div>
+<div class="level11" id="d8-8"></div>
+<div class="level12" id="d9-8"></div>
+<div class="level13" id="d10-8"></div>
+<div class="level14" id="d11-8"></div>
+<div class="level15" id="d12-8"></div>
+<div class="level16" id="d13-8"></div>
+<div class="level17" id="d14-8"></div>
+<div class="level18" id="d15-8"></div>
+
+<div class="level5" id="d1-9"></div>
+<div class="level6" id="d2-9"></div>
+<div class="level7" id="d3-9"></div>
+<div class="level8" id="d4-9"></div>
+<div class="level9" id="d5-9"></div>
+<div class="level10" id="d6-9"></div>
+<div class="level11" id="d7-9"></div>
+<div class="level12" id="d8-9"></div>
+<div class="level13" id="d9-9"></div>
+<div class="level14" id="d10-9"></div>
+<div class="level15" id="d11-9"></div>
+<div class="level16" id="d12-9"></div>
+<div class="level17" id="d13-9"></div>
+<div class="level18" id="d14-9"></div>
+<div class="level19" id="d15-9"></div>
+
+<div class="upper">
+<div id="music-btn" onclick="toggleMusic()"><i class="fa fa-music fa-lg"></i></div>
+<div id="return-btn" onclick="history.go(-1);"><i class="fa fa-reply fa-lg"></i></div>
+</div>
+
+<div class="bottom">
+<p>&copy; 2011-20<span id="currentYear"></span> No.5972</p>
+<p>Powered by <a target="_blank" href="https://hexo.io/">Hexo</a> 4.2.1 & <a target="_blank" href="https://theme-next.js.org/pisces/">NexT.Pisces</a> 8.0.0-rc.4</p>
+</div>
+
+<div id="jjbc"><div id="jjbc-t">ABOUT</div></div>
+<div id="text-bg"></div>
+<div id="text-wrapper">
+<div id="text">
+
+<p>
+<span class="title">Welcome to this website!</span><br>
+This website is using the Hexo theme: NexT<br>
+The source of this website is licensed under a BSD 3-Clause “New” or “Revised” License<br>
+Original content of this site, except those works that are given appropriate credits, is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.<br>
+</p>
+
+<p>
+<span class="title">Achievements</span><br>
+National English Competition for College Students (NECCS) - 2nd Prize for Band C, 2018<br>
+Chinese Physics Olympiad (CPHO) - 2nd Prize of the Province, 2014<br>
+National High School Mathematics League (NHSML) - 2nd Prize of the Province, 2013<br>
+National English Proficiency Competition for Middle School Students (NEPCS) - 3rd Prize of the School for Junior Three, 2011<br>
+</p>
+
+<p>
+<span class="title">Components</span><br>
+<a target="_blank" href="https://github.com/No5972/cms/">Github Pages</a> - Deployment server<br>
+<a target="_blank" href="https://gitee.com/No5972/cms/">Gitee Pages</a> - Deployment server<br>
+<a target="_blank" href="https://www.jsdelivr.com/">jsDelivr</a> - Content distribution network<br>
+<a target="_blank" href="https://theme-next.js.org/">Hexo</a> - Website compiler<br>
+<a target="_blank" href="https://github.com/galnetwen/Live2D">Hexo</a> Theme NexT - Website style<br>
+<a target="_blank" href="https://github.com/theme-next/hexo-generator-searchdb">Live2D</a> - Kanban Musume<br>
+<a target="_blank" href="https://github.com/theme-next/hexo-generator-searchdb">Hexo-Generator-SearchDB</a> - Local search<br>
+<a target="_blank" href="https://valine.js.org/">Valine</a> - Comments<br>
+<a target="_blank" href="https://leancloud.app/">LeanCloud</a> - Valine backend<br>
+<a target="_blank" href="https://busuanzi.ibruce.info/">Busuanzi</a> - Visitor counter<br>
+<a target="_blank" href="https://www.addthis.com/">AddThis</a> - Article share<br>
+<a target="_blank" href="https://www.freenom.link/">Freenom</a> - Indepentent domain name<br>
+<a target="_blank" href="https://www.dnspod.cn/">DNSPod</a> - DNS resolution<br>
+</p>
+
+<p>
+<span class="title">Special Thanks</span><br>
+<a target="_blank" href="https://github.com/laobubu/jekyll-theme-EasyBook">Laobubu’s EasyBook</a><br>
+<a target="_blank" href="https://github.com/next-theme/hexo-theme-next">Hexo Theme NexT</a><br>
+<a target="_blank" href="https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFD2001&filename=DNAH200120028&uid=WEEvREcwSlJHSldTTEYzVDhUSFJQNmh4RHRSY05FcnlNcmROOCtrMFZlVT0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4ggI8Fm4gTkoUKaID8j8gFw!!&v=MTYwMTc3dlBJU1BLWnJHNEh0RE9yNDlIYklSOGVYMUx1eFlTN0RoMVQzcVRyV00xRnJDVVI3cWZZT1p1RnlqbVU=">辽宁 鸣涧’s 《从无到有菜鸟建站》 at 《电脑爱好者》 (Computer Fan)</a><br>
+<a target="_blank" href="https://github.com/galnetwen/Live2D">后宫学长’s Live2D</a><br>
+<a target="_blank" href="http://www.xyrtv.com/">襄阳广播电视台 (Xiangyang Radio & Television Station)</a><br>
+<a target="_blank" href="http://www.xfbus.com.cn/">襄阳市公交集团 (Xiangyang Bus Co. Ltd.)</a><br>
+<a target="_blank" href="http://www.whtv.com.cn/">武汉广播电视台 (Wuhan Media Group)</a><br>
+<a target="_blank" href="https://www.wuhanrt.com/">武汉市地铁集团 (Wuhan Metro Group Co. Ltd.)</a><br>
+<a target="_blank" href="https://www.zcool.com.cn/special/zcoolfonts/#fl6">站酷快乐体字体 (ZcoolHappy-2016 Font)</a><br>
+</p>
+
+
+
+</div>
+</div>
+
+</div>
+
+<audio id="bg" src="https://cdn.jsdelivr.net/gh/No5972/Other_demos@audio1/CCTV2ED3.mp3" loop autoplay></audio>
+
+<script>
+document.getElementById("music-btn").classList.add("twisting");
+
+var currentDate = new Date().toDateString();
+document.getElementById("currentYear").innerText = currentDate.substring(currentDate.length - 2);
+
+window.onload = function () {
+	var scale = document.body.clientWidth / 1500;
+	document.getElementById("container").style.transform = "scale(" + scale + ")";
+}
+
+function toggleMusic() {
+	var isPlaying = !document.getElementById("bg").paused;
+	if (isPlaying) {
+		document.getElementById("bg").pause();
+		document.getElementById("music-btn").classList.remove("twisting");
+	} else {
+		document.getElementById("bg").play();
+		document.getElementById("music-btn").classList.add("twisting");
+	}
+}
+
+
+</script>
+
+</body>
+</html>
