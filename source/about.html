@@ -672,6 +672,9 @@ document.getElementById("music-btn").classList.add("twisting");
 var currentDate = new Date().toDateString();
 document.getElementById("currentYear").innerText = currentDate.substring(currentDate.length - 2);
 
+for (var x in document.querySelectorAll("#text a")) {document.querySelectorAll("#text a")[x].onmouseover = function () {this.style.color="#007ff3"; }; document.querySelectorAll("#text a")[x].onmouseout = function () {this.style.color="#000"; }; }
+for (var x in document.querySelectorAll(".bottom a")) {document.querySelectorAll(".bottom a")[x].onmouseover = function () {this.style.color="#007ff3"; }; document.querySelectorAll(".bottom a")[x].onmouseout = function () {this.style.color="#fff"; }; }
+
 window.onload = function () {
 	var scale = document.body.clientWidth / 1500;
 	document.getElementById("container").style.transform = "scale(" + scale + ")";
