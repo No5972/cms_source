@@ -56,8 +56,8 @@ deploy:
   type: git
   ignore_hidden: false # 添加这个属性值为false
   repo: 
-    gitee: git@gitee.com:你的Gitee仓库.git,[要使用的分支名]
-    github: git@github.com:你的Github仓库.git,[要使用的分支名] 
+    gitee: git@gitee.com:你的Gitee仓库.git,要使用的分支名
+    github: git@github.com:你的Github仓库.git,要使用的分支名
     # 可以先提交Gitee然后再提交Github，也就是把这个Gitee的地址放在前面。这样保证Gitee的站点内容能在Github开始动作之前完成提交。
 ```
 注意Github的部署仓库后台的Settings里面也要按照最上面那个仓库说明中那样配置Secrets（```GITEE_RSA_PRIVATE_KEY```和```GITEE_PASSWORD```的两个密钥。其中：```GITEE_RSA_PRIVATE_KEY```存放```id_rsa```私钥；```GITEE_PASSWORD```存放Gitee帐号的密码），这一步不要忘记了。
