@@ -33,6 +33,7 @@ jobs:
         dst_repo_name: 改成目标仓库名（也就是用户名点github点io）
         dst_branch: 改成目标仓库的分支名
         src_branch: 改成来源仓库的分支名
+        clean: true # 这里要保证目标目录先清空，否则非主页仓库若有删除文件就不会同步到主页仓库
         username: 改成操作的用户名
         email: 改成操作用户的邮箱
 ```

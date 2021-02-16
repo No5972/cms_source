@@ -14,5 +14,6 @@ jobs:
         dst_repo_name: No5972.github.io
         dst_branch: master
         src_branch: master
+        clean: true
         username: No5972
         email: wujiuqier@foxmail.com
