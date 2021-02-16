@@ -1,0 +1,18 @@
+name: Copy
+on: push
+jobs:
+  copy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Copycat
+      uses: andstor/copycat-action@v3
+      with:
+        personal_token: ${{ secrets.PERSONAL_TOKEN }}
+        src_path: /.
+        dst_path: /cms/
+        dst_owner: No5972
+        dst_repo_name: No5972.github.io
+        dst_branch: master
+        src_branch: master
+        username: No5972
+        email: wujiuqier@foxmail.com
