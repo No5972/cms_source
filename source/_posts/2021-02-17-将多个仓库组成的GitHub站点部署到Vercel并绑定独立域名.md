@@ -44,9 +44,9 @@ jobs:
 
 ![](https://img-blog.csdnimg.cn/2021021809573984.png)
 
-![](https://img-blog.csdnimg.cn/2021021809573951.png)
-
 ![](https://img-blog.csdnimg.cn/20210218095738971.png)
+
+![](https://img-blog.csdnimg.cn/2021021809573951.png)
 
 在非主页仓库后台设置的Settings里面打开Secrets，添加一个密钥```PERSONAL_TOKEN```，取值就是刚才复制的令牌，注意不要带空格。
 
