@@ -35,6 +35,7 @@ git pull origin master
 git commit -m "update"
 git push origin -u master
 cd ..
+cd ..
 hexo clean && hexo g && hexo d
 ```
 
