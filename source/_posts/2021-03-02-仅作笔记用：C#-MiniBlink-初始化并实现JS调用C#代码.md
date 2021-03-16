@@ -4,13 +4,13 @@ title: "仅作笔记用：C# MiniBlink 初始化并实现JS调用C#代码"
 date: 2021-03-02 16:00:00
 categories: C#
 excerpt: "创建WinForm项目，打开“工具-NuGet包管理器-管理解决方案的NuGet包”。搜索“Miniblink”，选择MiniBlinkNet进行安装。
-在项目的Resource目录添加设计的HTML文件作为显示界面。例如mainPage.html。在解决方案浏览器选中这个文件，在属性窗口的生成操作选择“嵌入的资源”。"
+在项目的Resources目录添加设计的HTML文件作为显示界面。例如mainPage.html。在解决方案浏览器选中这个文件，在属性窗口的生成操作选择“嵌入的资源”。"
 mathjax: true
 permalink: /archivers/76
 ---
 
 创建WinForm项目，打开“工具-NuGet包管理器-管理解决方案的NuGet包”。搜索“Miniblink”，选择MiniBlinkNet进行安装。
-在项目的```Resource```目录添加设计的HTML文件作为显示界面。例如```mainPage.html```。在解决方案浏览器选中这个文件，在属性窗口的生成操作选择“嵌入的资源”。
+在项目的```Resources```目录添加设计的HTML文件作为显示界面。例如```mainPage.html```。在解决方案浏览器选中这个文件，在属性窗口的生成操作选择“嵌入的资源”。
 初始化的代码要点：
 * 在C#中读取资源内容。
 * 定义全局变量```WebView```和```Panel```。
