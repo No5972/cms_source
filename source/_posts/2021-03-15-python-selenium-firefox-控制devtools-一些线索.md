@@ -1,16 +1,16 @@
 ---
 layout: post
 title: "Python Selenium Firefox 控制Devtools 一些线索"
-date: 2021-03-15 09:00:00
+date: 2021-03-15 15:45:00
 categories: Python
-excerpt: "版本55或以上的Firefox不支持Flash自动播放。建议使用Firefox 52.9.0 延长支持版。此版本需要使用Gecko Driver 0.17.0才能正常使用。但是不支持 set_window_size（会报错selenium.common.exceptions.WebDriverException: Message: setWindowRect），所以必须手动调整视口尺寸。"
+excerpt: "版本55或以上的Firefox不支持Flash自动播放。建议使用Firefox 52.9.0 延长支持版。此版本需要使用Gecko Driver 0.18.0才能正常使用。但是不支持 set_window_size（会报错selenium.common.exceptions.WebDriverException: Message: setWindowRect），所以必须手动调整视口尺寸。"
 mathjax: true
 permalink: /archivers/79
 ---
 
 版本55或以上的Firefox不支持Flash自动播放。
 建议使用[Firefox 52.9.0 延长支持版](http://ftp.mozilla.org/pub/firefox/releases/52.9.0esr/win64/zh-CN/)。
-此版本需要使用[Gecko Driver 0.17.0](https://npm.taobao.org/mirrors/geckodriver/v0.17.0/)才能正常使用。但是不支持 ```set_window_size```（会报错```selenium.common.exceptions.WebDriverException: Message: setWindowRect```），所以必须手动调整视口尺寸。
+此版本需要使用[Gecko Driver 0.18.0](https://npm.taobao.org/mirrors/geckodriver/v0.18.0/)才能正常使用。但是不支持 ```set_window_size```（会报错```selenium.common.exceptions.WebDriverException: Message: setWindowRect```），所以必须手动调整视口尺寸。
 自动播放Flash的设置（参考[https://blog.csdn.net/STL_CC/article/details/104968669](https://blog.csdn.net/STL_CC/article/details/104968669)）：
 ```python
 fp = webdriver.FirefoxProfile()
