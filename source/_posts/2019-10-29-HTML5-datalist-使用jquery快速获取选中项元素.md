@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "HTML5 datalist 使用jquery快速获取选中项元素"
-date:   2020-03-31 10:08:00
+date:   2019-10-29 16:30:00
 excerpt: 注意到获取datalist目前仍然比较多的使用遍历datalist里面的option来获取选中项的元素(DOM). 如果项目数量比较多的时候效率会比较慢. 如果页面引用的有jquery的话可以直接使用jquery的选择器来快速获取选中项元素. 但是有一个前提, 就是所有option 的某个属性值一定是唯一的, 不能出现重复. 否则将会把全部对应选项都返回出来.
 categories: JavaScript
 permalink: /archivers/2
