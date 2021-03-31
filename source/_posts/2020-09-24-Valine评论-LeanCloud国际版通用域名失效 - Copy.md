@@ -7,7 +7,9 @@ excerpt: 现在如果使用国际版LeanCloud作为Valine评论的后端的话�
 permalink: /archivers/35
 ---
 
+{% note info %}
 **9月27日更新：通用域名已经恢复，但是仍然不建议使用通用域名，仍然建议更换为自定义URL。**
+{% endnote %}
 
 昨天开始，国内大量使用国际版LeanCloud后端的博客的Valine评论一齐失效。
 

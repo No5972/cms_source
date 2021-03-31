@@ -27,4 +27,6 @@ permalink: /archivers/62
 127.0.0.1 static.centbrowser.cn
 ```
 
+{% note warning %}
 但是这样的话就不能再从官网重新下载浏览器了，官网这个下载链接也是来自这个域名的。如果需要从官网重新下载浏览器， 则需要将hosts的这个域名解除屏蔽。
+{% endnote %}
