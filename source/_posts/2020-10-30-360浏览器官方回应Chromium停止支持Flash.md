@@ -2,7 +2,7 @@
 layout: post
 title: "360浏览器官方回应Chromium停止支持Flash"
 date: 2020-10-30 08:30:00
-categories: Moving-Away-from-Flash
+categories: [Moving Away from Flash]
 excerpt: "鉴于Chrome和Chromium即将在年底停止对Flash的支持，有不少用户关心使用Chromium内核的国产浏览器是否也会相应地移除Flash的支持。对此360安全浏览器官方版主“Spirit_悔灭”做出回应。"
 permalink: /archivers/43
 isrepublish: true

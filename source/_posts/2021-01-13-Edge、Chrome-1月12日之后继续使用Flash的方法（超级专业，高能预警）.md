@@ -2,7 +2,7 @@
 layout: post
 title: "Edge、Chrome 1月12日之后继续使用Flash的方法（超级专业，高能预警）"
 date: 2021-01-13 02:00:00
-categories: Moving-Away-from-Flash
+categories: [Moving Away from Flash]
 excerpt: "先别管那么多，根据计算机常识，数据通常是小端存储，二进制的最高位通常是符号位。我们就把这一串的最后那个字节42想个什么办法改大一点，但是也不要超过80，不然可能就变成负数了。所以我们就暂且先把他改成72。保存之，替换到Edge的原来文件。再打开一个Flash的网页，可以加载Flash了！"
 permalink: /archivers/63
 ---

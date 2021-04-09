@@ -3,8 +3,9 @@ layout: post
 title: "Hexo Gitee Pages 自动部署站点"
 date: 2021-02-09 00:00:00
 categories: 
- - [Web-Building]
+ - [Web Building]
  - [Github]
+ - [Automation]
 excerpt: "经过查阅Hexo文档发现，Hexo默认会忽略隐藏文件和文件夹（包括名称以下划线和 .开头的文件和文件夹，Hexo的_posts和_data等目录除外）。因此需要在后台仓库的_config.yml文件添加这样的配置才能把.github的目录也给带进来。可能已经预留了include属性，建议先搜索这个属性，然后直接往这里面添加。"
 mathjax: true
 permalink: /archivers/70

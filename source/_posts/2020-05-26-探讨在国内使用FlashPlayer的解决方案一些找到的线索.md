@@ -3,7 +3,7 @@ layout: post
 title:  "探讨在国内使用Flash Player的解决方案 - 一些找到的线索"
 date:   2020-05-26 12:00:00
 excerpt: "Flash即将在年底停止支持，但是国内依旧有很多平台在依赖Flash，究竟国内还有多少平台还在依赖Flash？目前在国内仍然有大量的而且是非用不可的业务必须依赖Flash Player。Flash确实是要在2020年底要停止支持了，但是这并不是说Flash要淘汰了你就可以不用了，也不是说你觉得这个网页需要依赖Flash你就不进这个网站了，有些时候你遇到某些非用不可的业务你还非用不可。例如各种网课平台、政务平台、以及这段时间出现的一些虚拟实验平台（特别是一些学校的内网的平台），这些你还说Flash淘汰了不要去，你敢不用试试？【手动狗头】（有的学生因为不能运行Flash导致网课旷课进而导致被学校退学）"
-categories: Moving-Away-from-Flash
+categories: [Moving Away from Flash]
 permalink: /archivers/6
 ---
 

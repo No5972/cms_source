@@ -2,7 +2,9 @@
 layout: post
 title: "Github 个人Profile 自动实时获取最新博客博文日志并生成链接"
 date: 2021-01-23 11:30:00
-categories: Github
+categories: 
+ - [Github]
+ - [Automation]
 excerpt: "很多文章详细阐述了个性化个人Profile说明的方法，却鲜有提到如何实时更新最新博客博文并生成链接的方法。其实不需要本地配置任何东西，只需要在仓库加上特定的文件，Github就会自动读取这个文件并转换成相应的动作（Action）。"
 permalink: /archivers/66
 ---

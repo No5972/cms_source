@@ -2,7 +2,9 @@
 layout: post
 title: "Python Selenium Firefox 控制Devtools 一些线索"
 date: 2021-03-15 15:45:00
-categories: Python
+categories: 
+ - [Python]
+ - [Automation]
 excerpt: "版本55或以上的Firefox不支持Flash自动播放。建议使用Firefox 52.9.0 延长支持版。此版本需要使用Gecko Driver 0.18.0才能正常使用。但是不支持 set_window_size（会报错selenium.common.exceptions.WebDriverException: Message: setWindowRect），所以必须手动调整视口尺寸。"
 mathjax: true
 permalink: /archivers/79

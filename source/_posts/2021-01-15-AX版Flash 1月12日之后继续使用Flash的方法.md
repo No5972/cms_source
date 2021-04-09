@@ -2,7 +2,7 @@
 layout: post
 title: "AX版Flash 1月12日之后继续使用Flash的方法"
 date: 2021-01-15 15:30:00
-categories: Moving-Away-from-Flash
+categories: [Moving Away from Flash]
 excerpt: "稍微简化了一下，整了一个BAT加Node.js的脚本。需要把BAT、demo32.js、demo64.js、和node.exe（Node.js的可执行文件）放进同一目录。然后右键BAT文件以管理员身份运行。"
 permalink: /archivers/65
 ---

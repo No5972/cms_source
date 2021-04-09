@@ -2,7 +2,7 @@
 layout: post
 title: "百分浏览器继续使用Flash Player的临时解决方案！"
 date: 2021-01-12 09:45:00
-categories: Moving-Away-from-Flash
+categories: [Moving Away from Flash]
 excerpt: "百分浏览器会自动下载版本32的Flash Player放进浏览器的安装目录，这样的话即使是手动替换了Flash Player组件文件也会被新版的Flash Player覆盖掉，而新版Flash Player今天已经自毁了，无法使用！ 所以我们得想办法阻止覆盖！"
 permalink: /archivers/62
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "NexT主题 Group Pictures添加超链接"
 date: 2020-11-20 15:00:00
-categories: Web-Building
+categories: [Web Building]
 excerpt: "经过反复的查找相关JS代码包括编译站点的NodeJS代码，最终在group-pictures.js文件找到了问题所在。获取图片DOM的代码是通过正则表达式判断的，他会先把包裹在特定标签的内容生成出来的HTML代码取出来，然后通过正则表达式来找图片HTML标签。但是这个标签是按&lt;img&gt;标签去找的。这样会把包裹在&lt;img&gt;标签外面的&lt;a&gt;标签忽略，导致超链接无法生成。"
 permalink: /archivers/47
 ---

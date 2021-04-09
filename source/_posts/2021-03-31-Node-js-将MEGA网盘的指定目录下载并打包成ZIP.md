@@ -2,7 +2,9 @@
 layout: post
 title: "Node.js 将MEGA网盘的指定目录下载并打包成ZIP"
 date: 2021-03-31 18:00:00
-categories: JavaScript
+categories: 
+ - [JavaScript]
+ - [Automation]
 excerpt: "Node.js也很适合编写自动化脚本。Node.js的在编写自动化脚本这方面生态不比Python差多少。并且据说相同的代码，Node.js的执行效率要高于Python。Node.js和Python的运行库体积也相差无几。MEGA在PIP和NPM都有现成的封装好的MEGA网盘API。但是经过实测发现Node.js的API相对来说更好使一些。我們把写好的代码放到ReplIt上运行就可以直接下载打包好的ZIP文件了。"
 mathjax: true
 permalink: /archivers/84

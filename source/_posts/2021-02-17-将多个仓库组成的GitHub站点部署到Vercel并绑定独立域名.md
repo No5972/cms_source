@@ -3,7 +3,7 @@ layout: post
 title: "将多个仓库组成的GitHub站点部署到Vercel并绑定独立域名"
 date: 2021-02-17 03:00:00
 categories: 
- - [Web-Building]
+ - [Web Building]
  - [Github]
 excerpt: "鄙人这个站点主页是一个仓库，而博客又是一个仓库。但是直接使用GitHub访问速度很慢，即使是电信网有时候也得半分钟以上，移动联通就更难说了。如果能使用Vercel作为镜像来访问就能快不少，但是Vercel目前还没有发展到能把多个仓库部署到同一个项目的不同目录下，所以这里又要劳驾GitHub Actions了。"
 mathjax: true

@@ -2,7 +2,9 @@
 layout: post
 title: "利用GitHub Actions每天自动从Pixiv爬虫日推图片并存放到仓库"
 date: 2021-02-20 15:15:00
-categories: Github
+categories: 
+ - [Github]
+ - [Automation]
 excerpt: "很快联想到GitHub的Actions，如果能把这个爬虫部署到GitHub Actions上，就可以每天自动跑了，还能直接就把图片放到仓库上，直接拿美国GitHub的服务器来跑，也不用考虑网络连接的问题了。但是这个配置Actions的过程还是稍微有点复杂的，要分两个分支，一个用来展示代码，另一个用来存放爬取的图片。"
 mathjax: true
 permalink: /archivers/73
