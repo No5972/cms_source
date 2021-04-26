@@ -134,6 +134,6 @@ deploy:
   type: git
   ignore_hidden: false
   repo: 
-    gitee: git@gitee.com:No5972/cms.git,master
-    github: git@github.com:No5972/cms.git,master
+    gitee: https://gitee.com/No5972/cms.git,master
+    github: https://github.com/No5972/cms.git,master
 
