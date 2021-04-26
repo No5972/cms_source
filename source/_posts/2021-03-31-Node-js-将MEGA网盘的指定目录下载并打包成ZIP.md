@@ -91,6 +91,16 @@ new Promise((resolve, reject) => {
     output: process.stdout
   });
 
+  //-----将显示输入的密码替换为星号-----//
+  rl2.stdoutMuted = true;
+
+  rl2._writeToOutput = function _writeToOutput(stringToWrite) {
+    if (rl2.stdoutMuted)
+      rl2.output.write("*");
+    else
+      rl2.output.write(stringToWrite);
+  };
+  //----------------------------------//
  
   rl2.on('line', function(line){
     password = line;
@@ -150,5 +160,7 @@ rm -rf pixiv
 代码写好以后，保存为```.sh```的文件，在Linux控制台输入```sh ./保存的bash脚本文件名.sh```即可运行，网盘登录邮箱和密码需要自行输入。
 
 {% note danger %}
-注意密码输入没做隐藏，后续还要改进。密码输入完成后会自动清屏。输入的时候谨防被他人看到，导致网盘账号被盗。
+~~注意密码输入没做隐藏，后续还要改进。密码输入完成后会自动清屏。输入的时候谨防被他人看到，导致网盘账号被盗。~~
+
+代码已经更正，已经将显示输入的密码改为星号，但不影响回车之后提交的密码内容。但是网络数据包里面的密码仍然是明文，要提防数据包被窃取导致的密码泄露。
 {% endnote %}
