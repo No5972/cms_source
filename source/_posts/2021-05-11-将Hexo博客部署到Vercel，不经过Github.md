@@ -13,6 +13,8 @@ permalink: /archivers/89
 
 首先当然是需要准备一个Vercel账号的。没有的需要注册，~~注册过程网上博客写的很齐全，这里不再赘述。~~ 居然还有博客写的必须使用Github，这里纠正一下，邮箱就可以注册了，Github访问困难的情况下没有必要弄Github第三方登录！在注册页面右侧点击最下面那个不太显眼的Continue with Email就可以了！有博客说QQ邮箱不能用，这里也实测了，其实也是可以用的。就是那种类似于```123456789@qq.com```的邮箱就行！
 
+**编辑：后来发现邮箱注册是Vercel前两个月（2月28日——4月21日之间）才新增的注册方式，之前还是只允许使用Github、Gitlab、Bitbucket第三方登陆的。**
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210511121841353.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM1OTc3MTM5,size_16,color_FFFFFF,t_70#pic_center)
 
 
