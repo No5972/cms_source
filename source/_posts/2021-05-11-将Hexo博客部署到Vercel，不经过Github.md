@@ -70,6 +70,12 @@ Which scope do you want to deploy to?
 ```
 的时候就部署到Vercel上了，其中```xxxxxx```是项目名称。这个域名就是部署好的域名，从这个网址进去就可以访问博客了。
 
+以后需要更新博客的话执行下列操作：
+
+```bash
+hexo cl && hexo g && cd public && vercel --prod --confirm && cd ..
+```
+
 {% note info %}
 后续还可以从Vercel网页端的Settings里面绑定自己注册的独立域名，然后在自己的域名解析里面设置解析到```76.76.21.21```，这样就可以通过独立域名来访问了。
 
