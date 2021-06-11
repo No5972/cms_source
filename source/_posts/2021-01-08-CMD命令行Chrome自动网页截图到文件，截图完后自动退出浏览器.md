@@ -2,7 +2,8 @@
 layout: post
 title: "CMD命令行Chrome自动网页截图到文件，截图完后自动退出浏览器"
 date: 2021-01-08 12:00:00
-categories: Other
+categories: 
+ - [Automation]
 excerpt: "https://github.com/search?l=&q=filename%3Apepflashplayer.dll&type=code，点开看一下分支名字，看下有没有Releases，如果有的话访问https://cdn.jsdelivr.net/gh/用户名或组织名/仓库名@分支名/路径/pepflashplayer.dll就可以下载了。如果有需要manifest.json的话试着把最后的文件名改成这个，可能会报“Couldn't find the requested file”。如果报的话就再换一个搜索结果看看。"
 permalink: /archivers/59
 ---
