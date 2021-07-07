@@ -22,8 +22,8 @@ for (var x in whiteList) {
 	}
 }
 
-document.getElementById("link").innerText = location.href.substring(location.href.indexOf("?") + 1);
-document.getElementById("yesBtn").href = location.href.substring(location.href.indexOf("?") + 1);
+document.getElementById("link").innerText = decodeURI(location.href.substring(location.href.indexOf("?") + 1));
+document.getElementById("yesBtn").href = decodeURI(location.href.substring(location.href.indexOf("?") + 1));
 document.getElementsByClassName("post-title")[0].innerText = "Please pay attention to the safety of your account and property";
 
 </script>
