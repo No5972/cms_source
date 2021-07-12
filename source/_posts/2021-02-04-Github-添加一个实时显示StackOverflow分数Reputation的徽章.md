@@ -8,6 +8,10 @@ mathjax: true
 permalink: /archivers/69
 ---
 
+21.07.12更新：有一个class改了，原来的XPath已经不能直接用了。把```grid--cell```改成```flex--item```就可以了。
+
+---
+
 我們采用XPath强行解析StackOverflow用户主页的HTML节点来获取用户的Reputation数字。
 Shields.io提供了后端XPath解析网络上XML内容并输出到徽章的接口：
 ```
