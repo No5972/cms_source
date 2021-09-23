@@ -30,7 +30,7 @@ jobs:
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
           max_post_count: "5" # 获取几条链接
-          feed_list: "https://no5972.tk/cms/feed.xml" # 改成博客订阅的地址，以RSS格式或者Atom格式输出的
+          feed_list: "https://no5972.moe/cms/feed.xml" # 改成博客订阅的地址，以RSS格式或者Atom格式输出的
 ```
 
 编辑自己的说明文件```README.md```，在需要生成链接的地方添加如下内容。
