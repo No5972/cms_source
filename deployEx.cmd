@@ -1,3 +1,4 @@
+rm -rf .deploy_git
 git add .
 git pull origin master
 git commit -m "update"
