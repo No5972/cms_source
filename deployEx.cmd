@@ -10,4 +10,4 @@ git commit -m "update"
 git push origin -u master
 cd ..
 cd ..
-hexo clean && hexo g && hexo d 
+./node_modules/.bin/hexo clean && ./node_modules/.bin/hexo g && ./node_modules/.bin/hexo d 
