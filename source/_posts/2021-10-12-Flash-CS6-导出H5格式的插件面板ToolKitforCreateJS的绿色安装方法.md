@@ -50,7 +50,6 @@ C:\USERS\ADMIN\APPDATA\LOCAL\ADOBE\FLASH CS6\ZH_CN\CONFIGURATION\CREATEJS
 │      Log.jsfl
 │      main.jsfl
 │      Matrix2D.jsfl
-│      Publish for CreateJS.jsfl
 │      ShapeInst.jsfl
 │      SoundSymbol.jsfl
 │      StateObj.jsfl
