@@ -10,7 +10,7 @@ permalink: /archivers/111
 isrepublish: true
 ---
 
-来源：[![博客园-返回主页仅此而已-远方](https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%E5%9B%AD-%E4%BB%85%E6%AD%A4%E8%80%8C%E5%B7%B2%E2%80%94%E8%BF%9C%E6%96%B9-brightgreen)](https://www.cnblogs.com/xuwenjin/p/12664650.html)
+来源：[![博客园-仅此而已-远方](https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%E5%9B%AD-%E4%BB%85%E6%AD%A4%E8%80%8C%E5%B7%B2%E2%80%94%E8%BF%9C%E6%96%B9-brightgreen)](https://www.cnblogs.com/xuwenjin/p/12664650.html)
 
 # 前言
 WebSocket 是一种在单个 [TCP](https://baike.baidu.com/item/TCP) 连接上进行[全双工](https://baike.baidu.com/item/%E5%85%A8%E5%8F%8C%E5%B7%A5)通信的协议。WebSocket 通信协议于 2011 年被 [IETF](https://baike.baidu.com/item/IETF) 定为标准 RFC 6455，并由 RFC 7936 补充规范。WebSocket [API](https://baike.baidu.com/item/API) 也被 [W3C](https://baike.baidu.com/item/W3C) 定为标准。WebSocket使得客户端和服务器之间的数据交换变得更加简单，允许服务端主动向客户端推送数据。在 WebSocket API 中，浏览器和服务器只需要完成一次握手，两者之间就直接可以创建持久性的连接，并进行双向数据传输。
