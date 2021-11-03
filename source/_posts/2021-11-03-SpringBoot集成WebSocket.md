@@ -28,7 +28,7 @@ WebSocket 是一种在单个 [TCP](https://baike.baidu.com/item/TCP) 连接上�
 
 POM 文件中的依赖：
 ```xml
-　　　　 <dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
@@ -45,7 +45,7 @@ POM 文件中的依赖：
         </dependency>
 ```
 
-```application.yml``` 文件：
+`application.yml` 文件：
 ```yaml
 server:
   port: 18092
