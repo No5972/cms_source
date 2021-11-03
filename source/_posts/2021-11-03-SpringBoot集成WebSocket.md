@@ -19,7 +19,7 @@ WebSocket 是一种在单个 [TCP](https://baike.baidu.com/item/TCP) 连接上�
 本篇主要介绍在 SpringBoot 框架下，WebSocket 基于注解使用的 3 种场景：
 
 1. 自己给自己发消息
-2. 自己给所有客户端发送消息(不包括自己)
+2. 自己给所有客户端发送消息（不包括自己）
 3. 自己给另一个客户端发送消息
 
 # 代码示例
@@ -57,7 +57,7 @@ WebSocket 配置文件：
 public class WebSocketConfig {
 
     /**
-     * 注入一个ServerEndpointExporter,该Bean会自动注册使用@ServerEndpoint注解申明的websocket endpoint
+     * 注入一个 ServerEndpointExporter，该 Bean 会自动注册使用 @ServerEndpoint 注解申明的 WebSocket Endpoint
      */
     @Bean
     public ServerEndpointExporter serverEndpointExporter() {
@@ -85,49 +85,49 @@ public class WebSocketConfig {
 <script type="text/javascript">
     var websocket = null;
 
-    //判断当前浏览器是否支持WebSocket, 主要此处要更换为自己的地址
+    // 判断当前浏览器是否支持 WebSocket，主要此处要更换为自己的地址
     if ('WebSocket' in window) {
         websocket = new WebSocket("ws://localhost:18092/test/one");
     } else {
         alert('Not support websocket')
     }
 
-    //连接发生错误的回调方法
+    // 连接发生错误的回调方法
     websocket.onerror = function() {
         setMessageInnerHTML("error");
     };
 
-    //连接成功建立的回调方法
+    // 连接成功建立的回调方法
     websocket.onopen = function(event) {
         //setMessageInnerHTML("open");
     }
 
-    //接收到消息的回调方法
+    // 接收到消息的回调方法
     websocket.onmessage = function(event) {
         setMessageInnerHTML(event.data);
     }
 
-    //连接关闭的回调方法
+    // 连接关闭的回调方法
     websocket.onclose = function() {
         setMessageInnerHTML("close");
     }
 
-    //监听窗口关闭事件，当窗口关闭时，主动去关闭websocket连接，防止连接还没断开就关闭窗口，server端会抛异常。
+    // 监听窗口关闭事件，当窗口关闭时，主动去关闭 WebSocket 连接，防止连接还没断开就关闭窗口，服务端会抛异常。
     window.onbeforeunload = function() {
         websocket.close();
     }
 
-    //将消息显示在网页上
+    // 将消息显示在网页上
     function setMessageInnerHTML(innerHTML) {
         document.getElementById('message').innerHTML += innerHTML + '<br/>';
     }
 
-    //关闭连接
+    // 关闭连接
     function closeWebSocket() {
         websocket.close();
     }
 
-    //发送消息
+    // 发送消息
     function send() {
         var message = document.getElementById('text').value;
         websocket.send(message);
@@ -142,7 +142,7 @@ public class WebSocketConfig {
 创建一个 ```OneWebSocket``` 类，用来服务端与客户端进行交互：
 ```java
 /**
- * 前后端交互的类实现消息的接收推送(自己发送给自己)
+ * 前后端交互的类实现消息的接收推送（自己发送给自己）
  * 
  * @ServerEndpoint(value = "/test/one") 前端通过此 URI 和后端交互，建立连接
  */
@@ -151,7 +151,9 @@ public class WebSocketConfig {
 @Component
 public class OneWebSocket {
 
-    /** 记录当前在线连接数 */
+    /**
+     * 记录当前在线连接数 
+     */
     private static AtomicInteger onlineCount = new AtomicInteger(0);
 
     /**
@@ -224,7 +226,7 @@ public class OneWebSocket {
 ```java
 /**
  * 
- * 前后端交互的类实现消息的接收推送(自己发送给所有人(不包括自己))
+ * 前后端交互的类实现消息的接收推送（自己发送给所有人（不包括自己））
  * 
  * @ServerEndpoint(value = "/test/oneToMany") 前端通过此 URI 和后端交互，建立连接
  */
@@ -233,10 +235,14 @@ public class OneWebSocket {
 @Component
 public class OneToManyWebSocket {
 
-    /** 记录当前在线连接数 */
+    /**
+     * 记录当前在线连接数 
+     */
     private static AtomicInteger onlineCount = new AtomicInteger(0);
 
-    /** 存放所有在线的客户端 */
+    /**
+     * 存放所有在线的客户端 
+     */
     private static Map<String, Session> clients = new ConcurrentHashMap<>();
 
     /**
@@ -306,7 +312,7 @@ public class OneToManyWebSocket {
 创建一个 ```OneToOneWebSocket``` 类，用来服务端与客户端进行交互：
 ```java
 /**
- * 前后端交互的类实现消息的接收推送(自己发送给另一个人)
+ * 前后端交互的类实现消息的接收推送（自己发送给另一个人）
  * 
  * @ServerEndpoint(value = "/test/oneToOne") 前端通过此 URI 和后端交互，建立连接
  */
@@ -315,10 +321,14 @@ public class OneToManyWebSocket {
 @Component
 public class OneToOneWebSocket {
 
-    /** 记录当前在线连接数 */
+    /**
+     * 记录当前在线连接数 
+     */
     private static AtomicInteger onlineCount = new AtomicInteger(0);
 
-    /** 存放所有在线的客户端 */
+    /** 
+     * 存放所有在线的客户端 
+     */
     private static Map<String, Session> clients = new ConcurrentHashMap<>();
 
     /**
