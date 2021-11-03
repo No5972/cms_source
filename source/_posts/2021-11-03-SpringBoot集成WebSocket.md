@@ -3,7 +3,7 @@ layout: post
 title: "SpringBoot 集成 WebSocket"
 date: 2021-11-03 16:00:00
 categories: 
-  - [Webapp]
+  - [Java]
 excerpt: "网上有很多关于WebSocket用法的文章，但是有一些内容错误或者代码不全的，这里来个全的，方便自己记忆。"
 mathjax: true
 permalink: /archivers/111
