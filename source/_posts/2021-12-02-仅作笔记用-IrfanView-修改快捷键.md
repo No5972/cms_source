@@ -4,7 +4,7 @@ title: "仅作笔记用：IrfanView 修改快捷键"
 date: 2021-12-02 18:00:00
 categories: 
   - [Webapp]
-excerpt: "其实我们一直提倡尽量适应新操作系统的新特性的，尽管现阶段的 Windows 11 右键菜单仍然很不稳定，经常出现一按右键 “explorer” 进程就挂掉的情况。但是总有些小白不喜欢新的特性，执意要用回旧版的特性。通过修改注册表可以将 Windows 11 的右键菜单修改为旧版右键菜单。"
+excerpt: "IrfanView 其实已经提供了自定义快捷键的功能，但是没有单独的菜单选项或者窗口按钮来对应这个修改快捷键的功能。"
 mathjax: true
 permalink: /archivers/116
 isrepublish: false
