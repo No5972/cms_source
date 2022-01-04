@@ -12,6 +12,7 @@
     "version": "4.2.1"
   },
   "dependencies": {
+    "freecdn": "0.0.20",
     "hexo": "^4.2.1",
     "hexo-cli": "^4.2.0",
     "hexo-deployer-git": "^2.1.0",
