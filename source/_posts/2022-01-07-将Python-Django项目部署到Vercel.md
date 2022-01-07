@@ -12,7 +12,7 @@ isrepublish: false
 
 又是一个国内没有资料的操作。这个要是实现了，那些不太大的 Python 项目就全部免了购买云服务器的成本！这次要做的事情是，把 Django 框架的 Python 项目也部署到 Vercel 上去！当然，并发量和流量都不能太大，免费版对这些都有不少限制，流量太大了搞不好会被 Vercel 封禁（之前看某乎评论有人反映项目被 Vercel 封禁），所以别部署太大的项目！另外，这个部署到 Vercel 是不能用数据库的，他们说是云端编译会出错。
 
-1. 我们还是在 Replit 上创建项目。项目类型我们选择 Django App Template 而不是 Python，也省点事。然后把 urls 和 views 都写好。写好了以后就开始着手配置 Vercel！
+1. 我们还是在 Replit 上创建项目。项目类型我们选择 Django App Template 而不是 Python，也省点事。然后把 urls 和 views 都写好。写好了以后就开始着手配置 Vercel！下列步骤的 2、3、4、5 可以不分先后顺序。
 
 2. 首先，我们还是把 Vercel 的控制台端整来。直接切换到 Shell，保证在项目目录，然后执行 
 
