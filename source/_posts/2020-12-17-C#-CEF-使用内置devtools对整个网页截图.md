@@ -9,6 +9,12 @@ excerpt: "这样做的一个好处是不需要再调用Win32底层API。直接�
 permalink: /archivers/51
 ---
 
+22.01.19 更新：刚刚发现这个并不是整页截图。这个 ```CaptureScreenshotAsync``` 如果不事先设置的话确实默认只能截取当前视口范围内显示的图像，如果要整页截图的话得先调用 
+ ```CefSharp.DevTools.Emulation.EmulationClient.SetDeviceMetricsOverrideAsync``` 开启设备模拟，把模拟设备分辨率的高度改成和页面高度一致，然后再执行前者方法来截图。截图完了再调用 
+ ```CefSharp.DevTools.Emulation.EmulationClient.ClearDeviceMetricsOverrideAsync``` 关闭设备模拟。手头没有 C# 的开发环境，代码暂时先不贴了。
+
+---
+
 21.01.18更新：[CSDN论坛的大佬给出了一个解决方案](https://bbs.csdn.net/topics/398544662)，可以多次调用截图了。这里也贴出来供参考。
 这里改成了用全局变量的```PageClient```来暂存页面对象。因为如果把这个定义语句放在方法里面的话还是会报错“Generated MessageID 100002 doesn't match returned Message Id 100001”，所以要放在全局变量里面才行。
 ```csharp
