@@ -9,9 +9,7 @@ excerpt: "这样做的一个好处是不需要再调用Win32底层API。直接�
 permalink: /archivers/51
 ---
 
-22.01.19 更新：刚刚发现这个并不是整页截图。这个 ```CaptureScreenshotAsync``` 如果不事先设置的话确实默认只能截取当前视口范围内显示的图像，如果要整页截图的话得先调用 
- ```CefSharp.DevTools.Emulation.EmulationClient.SetDeviceMetricsOverrideAsync``` 开启设备模拟，把模拟设备分辨率的高度改成和页面高度一致，然后再执行前者方法来截图。截图完了再调用 
- ```CefSharp.DevTools.Emulation.EmulationClient.ClearDeviceMetricsOverrideAsync``` 关闭设备模拟。手头没有 C# 的开发环境，代码暂时先不贴了。
+22.01.19 更新：刚刚发现这个并不是整页截图。这个 ```CaptureScreenshotAsync``` 如果不事先设置的话确实默认只能截取当前视口范围内显示的图像，如果要整页截图的话得先调用  ```CefSharp.DevTools.Emulation.EmulationClient.SetDeviceMetricsOverrideAsync``` 开启设备模拟，把模拟设备分辨率的高度改成和页面高度一致，然后再执行前者方法来截图。截图完了再调用  ```CefSharp.DevTools.Emulation.EmulationClient.ClearDeviceMetricsOverrideAsync``` 关闭设备模拟。手头没有 C# 的开发环境，代码暂时先不贴了。
 
 ---
 
