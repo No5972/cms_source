@@ -21,7 +21,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://no5972.github.io/cms
+url: https://no5972.moe/cms
 root: /cms/
 permalink: :title.html
 permalink_defaults:
