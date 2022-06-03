@@ -128,6 +128,44 @@ sitemap:
 baidusitemap:
   url: https://no5972.cn
 
+pwa:
+  manifest:
+    path: /cms/static/manifest.json
+    body:
+      "name": "No.5972 Publish Website"
+      "short_name": "No5972Publish"
+      "theme_color": "rgba(0,127,243,1)"
+      "background_color": "#FAFAFA"
+      "display": "standalone"
+      "Scope": "/cms/"
+      "start_url": "/cms/"
+      icons:
+        - src: https://cdn.wangyaxing.cn/icon-144x144.png?v=1
+          sizes: 144x144
+          type: image/png
+        - src: https://cdn.wangyaxing.cn/icon-128x128.png
+          sizes: 128x128
+          type: image/png
+        - src: https://cdn.wangyaxing.cn/icon-96x96.png
+          sizes: 96x96
+          type: image/png
+  serviceWorker:
+    path: /cms/static/sw.js
+    preload:
+      urls:
+        - /cms/
+      posts: 5
+    opts:
+      networkTimeoutSeconds: 5
+    routes:
+      - pattern: !!js/regexp /hm.baidu.com/
+        strategy: networkOnly
+      - pattern: !!js/regexp /.*\.(js|css|jpg|jpeg|png|gif)$/
+        strategy: cacheFirst
+      - pattern: !!js/regexp /\//
+        strategy: networkFirst
+  priority: 5
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
