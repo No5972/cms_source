@@ -133,7 +133,7 @@ baidusitemap:
 
 pwa:
   manifest:
-    path: /cms/static/manifest.json
+    path: /cms/manifest.json
     body:
       "name": "No.5972 Publish Website"
       "short_name": "No5972Publish"
