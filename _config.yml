@@ -151,7 +151,7 @@ pwa:
           sizes: 96x96
           type: image/png
   serviceWorker:
-    path: /cms/static/sw.js
+    path: /cms/sw.js
     preload:
       urls:
         - /cms/
