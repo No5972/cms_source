@@ -141,13 +141,13 @@ pwa:
       "Scope": "/cms/"
       "start_url": "/cms/"
       icons:
-        - src: https://cdn.wangyaxing.cn/icon-144x144.png?v=1
+        - src: https://no5972.moe/cms/images/icon-144x144.png
           sizes: 144x144
           type: image/png
-        - src: https://cdn.wangyaxing.cn/icon-128x128.png
+        - src: https://no5972.moe/cms/images/icon-128x128.png
           sizes: 128x128
           type: image/png
-        - src: https://cdn.wangyaxing.cn/icon-96x96.png
+        - src: https://no5972.moe/cms/images/icon-96x96.png
           sizes: 96x96
           type: image/png
   serviceWorker:

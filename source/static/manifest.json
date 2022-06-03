@@ -8,17 +8,17 @@
   "start_url": "/cms/",
   "icons": [
     {
-      "src": "/source/images/icons/icon-96x96.png",
+      "src": "/cms/images/icon-96x96.png",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "/source/images/icons/icon-128x128.png",
+      "src": "/cms/images/icon-128x128.png",
       "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "/source/images/icons/icon-144x144.png",
+      "src": "/cms/images/icon-144x144.png",
       "sizes": "144x144",
       "type": "image/png"
     }
