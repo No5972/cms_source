@@ -4,7 +4,7 @@ title: "DebreateForUOS 打包 UOS Electron 应用"
 date: 2022-08-04 11:30:00
 categories: 
   - [Webapp]
-excerpt: "目前大家可能仍有需要用到 Flash Player 的情况。这里尝试先将部分页游的微端移植到 UOS 上来。鄙人尽最大可能降低操作的复杂度，不会像那篇《GNASH 移植》那样那么复杂！"
+excerpt: "接下来，熟悉如何打包一个 UOS 应用。现在不少新的桌面应用开始使用 Electron 作为 GUI 框架，它允许使用 JavaScript 来实现 GUI 及其交互功能，并且跨平台也比较好，无需用户配置专门的运行环境就可以直接开箱即用。"
 mathjax: true
 permalink: /archivers/131
 isrepublish: false

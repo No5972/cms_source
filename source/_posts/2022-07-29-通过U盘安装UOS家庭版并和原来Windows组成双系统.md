@@ -4,7 +4,7 @@ title: "通过 U 盘安装 UOS 家庭版并和原来 Windows 组成双系统"
 date: 2022-07-29 20:30:00
 categories: 
   - [Webapp]
-excerpt: "目前大家可能仍有需要用到 Flash Player 的情况。这里尝试先将部分页游的微端移植到 UOS 上来。鄙人尽最大可能降低操作的复杂度，不会像那篇《GNASH 移植》那样那么复杂！"
+excerpt: "首先将要安装 UOS 系统的电脑空出来一个分区并随便设置一个卷标，用来装 UOS 系统。这里空出来的分区大小是 200GB。可以把分区保留而不需要删除分区。到时候 UOS 安装程序也可以删除分区。"
 mathjax: true
 permalink: /archivers/130
 isrepublish: false
