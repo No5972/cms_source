@@ -38,7 +38,7 @@ isrepublish: true
 
 ![](https://obs.wanpeng.life/wp-content/uploads/2021/05/ad.png)
 
-<p style="align:center">安装成功</p>
+<p style="text-align:center">安装成功</p>
 
 {% note warning %}
 如果没有此脚本，可以在应用商店中安装一个安卓软件（应用名字通常带有“（Android）”后缀），这样会自动安装 kbox，就会生成这个脚本，或者执行命令 ```apt -y install kbox```
@@ -48,6 +48,6 @@ isrepublish: true
 
 ![](https://obs.wanpeng.life/wp-content/uploads/2021/05/rj.png)
 
-实测像开心消消乐、百度网盘、抖音、QQ等都可以安装并正常使用。
+实测像开心消消乐、百度网盘、抖音、QQ 等都可以安装并正常使用。
 
 但是像王者荣耀这种大型游戏会因显示问题无法运行。
