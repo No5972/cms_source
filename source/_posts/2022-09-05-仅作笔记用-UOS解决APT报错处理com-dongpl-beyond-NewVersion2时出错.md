@@ -3,7 +3,7 @@ layout: post
 title: "仅作笔记用：UOS 解决 APT 报错处理 com.dongpl.beyond (NewVersion2) 时出错"
 date: 2022-09-05 17:30:00
 categories: 
-  - [Webapp]
+  - [AtoW]
 excerpt: "留意到应用商店里面有一个这个文件对比工具 Beyond Compare，大家如果在安装过此应用之后在 APT 命令出现类似问题的时候可以参考本文章方法来解决。"
 mathjax: true
 permalink: /archivers/136

@@ -3,7 +3,7 @@ layout: post
 title: "通过 U 盘安装 UOS 家庭版并和原来 Windows 组成双系统"
 date: 2022-07-29 20:30:00
 categories: 
-  - [Webapp]
+  - [AtoW]
 excerpt: "首先将要安装 UOS 系统的电脑空出来一个分区并随便设置一个卷标，用来装 UOS 系统。这里空出来的分区大小是 200GB。可以把分区保留而不需要删除分区。到时候 UOS 安装程序也可以删除分区。"
 mathjax: true
 permalink: /archivers/130

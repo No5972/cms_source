@@ -3,7 +3,7 @@ layout: post
 title: "UOS ARM 安装安卓手机软件 APK 软件包"
 date: 2022-08-17 11:30:00
 categories: 
-  - [Webapp]
+  - [AtoW]
 excerpt: "统信 UOS 系统现在做的真是越来越好用，个人也是非常的喜欢，在平时的工作中也经常使用 UOS 系统，万万使用的是鲲鹏 920 处理器的机器，ARM 架构，和大部分手机架构一样，所以按理来说是可以直接在 UOS 系统上运行手机软件的，此系统天生与手机的生态有着千丝万缕的联系。"
 mathjax: true
 permalink: /archivers/133

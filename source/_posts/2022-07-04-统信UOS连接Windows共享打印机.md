@@ -3,7 +3,7 @@ layout: post
 title: "统信 UOS 连接 Windows 共享打印机"
 date: 2022-07-04 17:30:00
 categories: 
-  - [Webapp]
+  - [AtoW]
 excerpt: "系统是统信 UOS 家庭版。由于 VMWare 虚拟机直接连接打印机，主机会蓝屏，所以这里改为采用连接 Windows 共享的打印机来测试 UOS 的系统打印功能。"
 mathjax: true
 permalink: /archivers/127
