@@ -4,6 +4,7 @@ title: "UOS 移植 Flash Player 页游微端"
 date: 2022-07-25 10:30:00
 categories: 
   - [AtoW]
+  - [Moving Away from Flash]
 excerpt: "目前大家可能仍有需要用到 Flash Player 的情况。这里尝试先将部分页游的微端移植到 UOS 上来。鄙人尽最大可能降低操作的复杂度，不会像那篇《GNASH 移植》那样那么复杂！"
 mathjax: true
 permalink: /archivers/129
