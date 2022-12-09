@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -626,7 +627,8 @@ img { filter: sepia() saturate(4) hue-rotate(150deg); }
 This website is using the <a target="_blank" href="https://hexo.io/">Hexo</a> theme: <a target="_blank" href="https://github.com/next-theme/hexo-theme-next">NexT</a><br>
 The source of this website is licensed under a <a target="_blank" href="https://github.com/No5972/cms_source/blob/master/LICENSE">BSD 3-Clause “New” or “Revised” License</a><br>
 Original content of this site, except those works that are given appropriate credits, is licensed under a <a target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License.</a><br>
-BGM: CCTV-2 Common Program Ending<br>
+BGM: CCTV-2 Common Program Ending<br><br>
+* You can use left and right arrow keys to switch page (for Chromium core 84+ or Firefox 75+)
 </div>
 </div>
 
@@ -718,6 +720,52 @@ function toggleMusic() {
 }
 
 
+</script>
+
+<!-- keyboard controller -->
+<script>
+var page = 0;
+
+document.onanimationiteration = function () { 
+    if (document.getAnimations()[137].currentTime % 35000 >= 0 && document.getAnimations()[137].currentTime % 35000 < 6500) {
+        page = 0;
+    }
+    if (document.getAnimations()[137].currentTime % 35000 >= 6500 && document.getAnimations()[137].currentTime % 35000 < 13500) {
+        page = 1;
+    }
+    if (document.getAnimations()[137].currentTime % 35000 >= 13500 && document.getAnimations()[137].currentTime % 35000 < 20500) {
+        page = 2;
+    }
+    if (document.getAnimations()[137].currentTime % 35000 >= 20500 && document.getAnimations()[137].currentTime % 35000 < 27500) {
+        page = 3;
+    }
+    if (document.getAnimations()[137].currentTime % 35000 >= 27500) {
+        page = 4;
+    }
+}
+
+document.onkeydown = function () {
+    switch (window.event.code) {
+        case "ArrowLeft": 
+            if (page > 0) page--; break;
+        case "ArrowRight":
+            if (page < 4) page++; break;
+        default: 
+            break;
+    }
+    switch (page) {
+        case 0:
+            document.getAnimations()[137].currentTime = 2000; document.getAnimations()[135].currentTime = 2000; break;
+        case 1:
+            document.getAnimations()[137].currentTime = 9000; document.getAnimations()[135].currentTime = 9000; break;
+        case 2:
+            document.getAnimations()[137].currentTime = 16000; document.getAnimations()[135].currentTime = 16000; break;
+        case 3:
+            document.getAnimations()[137].currentTime = 23000; document.getAnimations()[135].currentTime = 23000; break;
+        case 4:
+            document.getAnimations()[137].currentTime = 30000; document.getAnimations()[135].currentTime = 30000; break;
+    }
+}
 </script>
 
 </body>
