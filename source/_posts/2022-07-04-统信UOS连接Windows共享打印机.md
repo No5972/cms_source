@@ -22,7 +22,7 @@ rundll32.exe shell32.dll,Control_RunDLL appwiz.cpl,,2
 
 打开后展开“打印和文件服务”，勾选“LPD 打印服务”并确定。
 
-![](https://img-blog.csdnimg.cn/fa50a9881365472e8cfc876c0c75bff4.png)
+![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/fa50a9881365472e8cfc876c0c75bff4.png)
 
 还是在控制面板，点选“查看设备和打印机”。或者也可以在运行输入特别的命令快速打开：
 
@@ -32,7 +32,7 @@ explorer shell:::{A8A91A66-3A7D-4424-8D24-04E180695C7A}
 
 将已经连接的打印机右键，选择打印机属性，共享选项卡，勾选共享这台打印机，并输入一个不包含空格和特殊字符的名称，确定。
 
-![](https://img-blog.csdnimg.cn/ce71937fdf594be58e46624984506dc1.png)
+![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/ce71937fdf594be58e46624984506dc1.png)
 
 这样就完成了 Windows 端的打印机共享。
 
@@ -48,10 +48,10 @@ explorer shell:::{A8A91A66-3A7D-4424-8D24-04E180695C7A}
 192.168.49.1/CanonLBP62306240
 ```
 
-![](https://img-blog.csdnimg.cn/572e4e1178a448649ed1c8fc0082d435.png)
+![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/572e4e1178a448649ed1c8fc0082d435.png)
 
 点击注册，这样就完成了打印机的连接和配置。
 
 如果需要测试效果的话，可以在启动器打开打印管理器，此时会发现多出来了一个打印机，这就是刚才添加的打印机，选中它点击打印测试页，然后就开始打印了。
 
-![](https://img-blog.csdnimg.cn/ab238525f8984600a00587c55b1d288f.png)
+![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/ab238525f8984600a00587c55b1d288f.png)

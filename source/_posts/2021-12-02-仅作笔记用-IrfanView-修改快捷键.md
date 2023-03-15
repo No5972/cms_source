@@ -16,6 +16,6 @@ IrfanView 其实从 2020 年 10 月 21 日的 4.56 版本就已经提供了自�
 
 打开“编辑”，然后 **右击** “插入水印”，然后就可以看到修改快捷键的右键菜单。选择之，然后在弹出的窗口指定一个快捷键，点击“设置”，如果没有冲突的快捷键就可以直接确定了，如果有冲突的快捷键会提示有哪个功能冲突了，请先将已有的菜单项右键修改快捷键，然后在输入框中按退格清除掉快捷键，然后点设置。再回到原来的菜单项右键修改快捷键，输入要指定的快捷键，确定设置即可。
 
-![](https://img-blog.csdnimg.cn/7055ca6ffc624ed8929aef39cbd00fcd.png)
+![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/7055ca6ffc624ed8929aef39cbd00fcd.png)
 
-![](https://img-blog.csdnimg.cn/e42113de295440d0b956d2b9481a3287.png)
+![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/e42113de295440d0b956d2b9481a3287.png)

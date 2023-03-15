@@ -14,7 +14,7 @@ isrepublish: true
 
 **更新为Chrome 87.0.4270.0绿色免安装版**。谷歌浏览器，又称Google浏览器、Chrome浏览器，是谷歌Google推出的一款强大好用的基于Chromium内核的网页浏览器。Google Chrome 的诞生离不开 Chromium 开源项目以及其他开源软件。**注：** 目前国内大部分浏览器甚至微软的Edge浏览器都是基于Chromium 开源项目，由此可见Chromium内核之强大！
 
-![](https://img-blog.csdnimg.cn/img_convert/cadedaf9e4f853827de40ab45f89181f.png)
+![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/img_convert/cadedaf9e4f853827de40ab45f89181f.png)
 今天给大家分享的是谷歌浏览器Chrome绿色免安装便携版，解压即可使用，也可以随时拷贝到U盘便携使用。
 
 # Chrome绿色免安装增强版说明
@@ -42,7 +42,7 @@ isrepublish: true
 
 Chrome浏览器程序文件来源默认是Google，如果Google查询不到更新，还可以选择国内的```sina.com.cn```。如果是32位系统，你可以勾选“只下载32位浏览器”。
 
-![](https://img-blog.csdnimg.cn/08ce8dd562334fc8bc2086413b4ae430.png)
+![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/08ce8dd562334fc8bc2086413b4ae430.png)
 
 4. 运行```!备份设置.bat```即可备份你的Chrome绿色版设置，包括收藏夹以及扩展插件等（备份位置：```\User Data-bak```）。当你想恢复设置，只要将旧的```User Data```删除，然后将```User Data-bak```重命名为```User Data```即可，你的扩展插件和收藏夹都会得到保留；
 

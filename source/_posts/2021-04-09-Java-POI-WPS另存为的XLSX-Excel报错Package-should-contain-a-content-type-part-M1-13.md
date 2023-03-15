@@ -44,7 +44,7 @@ Excel 的版本，我使用的是WPS 2019 个人版的，也就是后缀为```.x
 {% note warning %}
 此网站转换后生成的文档有些字体发生了变化，如果对格式有严格要求，需要再进行调整。转换后的XLSX文件使用WPS编辑保存后也可以在Java POI程序中使用。
 {% endnote %}
-![20210409103800710.png](https://img-blog.csdnimg.cn/20210409103800710.png)
+![20210409103800710.png](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/20210409103800710.png)
 
 
 参考：[POI异常信息：Package should contain a content type part [M1.13]](https://blog.csdn.net/weixin_42833423/article/details/112391440)

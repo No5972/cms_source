@@ -14,13 +14,13 @@ isrepublish: false
 
 首先在 PMXEditor 打开角色模型。然后点击 File - Import，找到并选中 ```.x``` 格式的饰品文件。然后选择“Add”在现有已加载模型的基础上追加导入。右边的选项暂时不管。
 
-![](https://img-blog.csdnimg.cn/968991f0c2ef4ac68d97992fc8cb070b.png)
+![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/968991f0c2ef4ac68d97992fc8cb070b.png)
 
 这样导入以后，首先调整一下饰品的位置。在模型预览窗口点击右上方的“M”，把饰品以外的所有材质先取消勾选，让其他材质不显示。只剩下饰品之后，框选住所有的顶点。然后再全部勾选。这样就只选中了饰品，然后通过拖动句柄来调整饰品的位置，对齐要对准的部位。
 
-![](https://img-blog.csdnimg.cn/0d7ee194c9a043679192d1cebff8c483.png)
+![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/0d7ee194c9a043679192d1cebff8c483.png)
 
-![](https://img-blog.csdnimg.cn/b0fb959e95d34576b0b4f04d03121a0b.png)
+![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/b0fb959e95d34576b0b4f04d03121a0b.png)
 
 然后还是取消勾选饰品以外的所有材质。还是框选住饰品的所有顶点。
 
@@ -28,14 +28,14 @@ isrepublish: false
 
 然后在模型预览窗口点击右上方的“W”，点击 Start，这时会看到饰品出现了黑色的顶点。通过鼠标拖曳的方式将所有这些黑色的点涂成红色。注意不要拖的太快，太快的话有些少数的点可能没有标红。
 
-![](https://img-blog.csdnimg.cn/17e054daa4924a52bd17928df6b59d7d.png)
+![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/17e054daa4924a52bd17928df6b59d7d.png)
 
-![](https://img-blog.csdnimg.cn/0f6ea49059d541bc96f62fab576ea3bb.png)
+![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/0f6ea49059d541bc96f62fab576ea3bb.png)
 
 全部标红之后再点击 Start，这时候红色的点应该消失了。好了，现在点击右上方的 T 按钮，试着旋转相关的关节看看饰品会不会跟着动！
 
-![](https://img-blog.csdnimg.cn/303addee59b84787a1d68687cf5b6848.png)
+![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/303addee59b84787a1d68687cf5b6848.png)
 
-![](https://img-blog.csdnimg.cn/5ffe2a33a5c245938de2e4d19ef2f95e.png)
+![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/5ffe2a33a5c245938de2e4d19ef2f95e.png)
 
 本篇使用素材“Angel Wings”来自 [VRoid Hub](https://hub.vroid.com/en/characters/555104576816800556/models/6086027198880580229)，素材作者：[Lucy Aldra](https://hub.vroid.com/en/users/62909993)

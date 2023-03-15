@@ -16,7 +16,7 @@ isrepublish: true
 所有这些基础的材料组成的东西就叫材质。反过来删除材质就代表你把顶点、面、贴图。。。。
 全部一并删除。我们所说的金属材质，木材材质只是对原始材料参数进行重新设定。
 
-![](https://img-blog.csdnimg.cn/img_convert/25b081289157e8807f390cac6d8ff41d.png)
+![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/img_convert/25b081289157e8807f390cac6d8ff41d.png)
 
  **编号1**：PMX2.0材质默认设置为（扩展色=1，反射色=0，环境色=0.5 ）修改材质色跟渲染的品质关联，
 一般不建议修改，你要改的是你渲染包中对应的材质参数
@@ -43,9 +43,9 @@ isrepublish: true
 网上也有一份这种高光贴图包。为了便于理解我们给眼睛贴上sph贴图演示一下。高光贴图应用非常广泛
 很多游戏盔甲就是用的高光贴图来让金属泛光。。。
 
-![](https://img-blog.csdnimg.cn/img_convert/e870b5ba5b380a3f162832cac16019d5.png)
+![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/img_convert/e870b5ba5b380a3f162832cac16019d5.png)
 
-![](https://img-blog.csdnimg.cn/img_convert/5a0cdcb0452bd8b642c4a79e186d812f.gif)
+![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/img_convert/5a0cdcb0452bd8b642c4a79e186d812f.gif)
 
 ray渲N渲IK渲本身就自带高光贴图设置，这也就是为什么N渲的作者在演示时让你删除Sph的原因，
 你可以在N渲的文件夹中找到这类贴图文件。当然了这里也不需要设置什么法线贴图，

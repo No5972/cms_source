@@ -15,7 +15,7 @@ permalink: /archivers/89
 
 **编辑：后来发现邮箱注册是Vercel前两个月（2月28日——4月21日之间）才新增的注册方式，之前还是只允许使用Github、Gitlab、Bitbucket第三方登陆的。**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210511121841353.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM1OTc3MTM5,size_16,color_FFFFFF,t_70#pic_center)
+![在这里插入图片描述](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/20210511121841353.jpeg)
 
 
 既然已经有Hexo博客了，那么肯定是有Node.js了。如果没有Hexo博客的话需要搭建一个，具体过程其他博客写的都有，这里就不再重复了，要能在博客根目录执行```hexo s```并能通过HTTP访问博客页面为准。
@@ -83,7 +83,7 @@ hexo cl && hexo g && cd public && vercel --prod --confirm && cd ..
 
 > 进入这个项目，选择Settings，Domains，添加之前注册的独立域名。添加以后这时候Vercel的界面会提示你需要添加域名的解析。到这个域名解析的后台，添加一个类型为```A```，主机记录为```@```的解析记录，如果之前有这个记录则直接修改。记录值按照Vercel的界面提示填写```76.76.21.21```。其他选项保持默认即可。
 >
-> ![](https://img-blog.csdnimg.cn/20210218100218514.png)
+> ![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/20210218100218514.png)
 >
 > 稍等片刻，再访问这个域名，即可以更快的速度显示页面了。
 {% endnote %}

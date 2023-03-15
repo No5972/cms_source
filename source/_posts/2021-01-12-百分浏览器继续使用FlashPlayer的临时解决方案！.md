@@ -18,7 +18,7 @@ permalink: /archivers/62
 已经猜测出浏览器自动下载Flash Player的域名：```static.centbrowser.cn```。
 
 大家需要手动将29版本的Flash Player组件文件放进浏览器的```User Data\PepperFlash```目录！如果有原来的文件则需要覆盖！通常是两个文件：```pepflashplayer.dll```和```manifest.json```。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210112094602630.png#pic_center)
+![在这里插入图片描述](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/20210112094602630.png)
 然后在运行之前从hosts屏蔽这个域名！
 
 打开```C:\Windows\System32\drivers\etc\hosts```这个文件，添加一行这样的内容以屏蔽这个域名。注意IP和域名之间有一个空格。
