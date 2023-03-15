@@ -39,4 +39,4 @@ jobs:
 <!-- BLOG-POST-LIST:END -->
 ```
 过几个小时再看看自己的Profile页面，看看相应内容是不是已经出现了博文的链接？
-![在这里插入图片描述](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/20210123111754169.png)
+![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/20210123111754169.png)

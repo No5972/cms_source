@@ -88,7 +88,7 @@ jobs:
         ls
         echo "Error on running!"
 ```
-这样配置好以后，每天下午两点，或者只要```main```分支有提交的内容，GitHub就会自动爬取一次Pixiv日推并存放到放置图片的分支去。之后就可以前往该分支查看了。那个CRON表达式也可以根据需要修改成其他的定时。![在这里插入图片描述](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/20210221224507720.png)
+这样配置好以后，每天下午两点，或者只要```main```分支有提交的内容，GitHub就会自动爬取一次Pixiv日推并存放到放置图片的分支去。之后就可以前往该分支查看了。那个CRON表达式也可以根据需要修改成其他的定时。![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/20210221224507720.png)
 
 
 代码可以前往 [https://github.com/No5972/pixiv-github-action](https://github.com/No5972/pixiv-github-action) 进行参考。

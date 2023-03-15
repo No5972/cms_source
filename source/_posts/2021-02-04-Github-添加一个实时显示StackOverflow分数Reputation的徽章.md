@@ -36,7 +36,7 @@ https://img.shields.io/badge/dynamic/xml?label=StackOverflow%20%28Inactive%29&qu
 ```
 
 写到Github Profile的效果如图所示。
-![在这里插入图片描述](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/20210204162052911.jpeg)
+![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/20210204162052911.jpeg)
 
 
 类似的，其他不能使用JSON方式获取数字的平台也可以通过这种XPath的方式来读取用户或项目主页的DOM节点来获取需要显示的动态内容。这里就不再赘述了。

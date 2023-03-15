@@ -31,7 +31,7 @@ $("#type").change(function() {
 
 效果: 
 
-![在这里插入图片描述](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/20191029161526424.gif)
+![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/20191029161526424.gif)
 
 测试从6 192个选项中定位的计时:
 

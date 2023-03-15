@@ -20,7 +20,7 @@ isrepublish: false
 
 稍等片刻，刷新 Leancloud 的后台，然后就会显示已绑定。
 
-![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/fe110c03e0044420b2e4f0e09c91d671.png)
+![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/fe110c03e0044420b2e4f0e09c91d671.png)
 
 前往网站之前配置评论的地方，这里的 hexo 是 ```themes/next/_config.yml```，找到 ```valine.serverURLs``` 属性，改成刚才在 Leancloud 后台配置的域名（注意不是 CNAME 的记录值）。然后重新部署页面，再看看评论有没有正常加载。如果正常加载，那么就可以继续使用评论系统了。
 

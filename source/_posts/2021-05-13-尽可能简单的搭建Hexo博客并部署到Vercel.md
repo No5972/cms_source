@@ -25,23 +25,23 @@ permalink: /archivers/90
 # 1. 注册账号
 ## 1.1 注册Repl.it
 现在的网站变成[replit.com](https://replit.com)了。进去之后点击右上角的Sign Up，Username取一个用户名，Email输入注册邮箱（QQ邮箱也可以），Password输入创建密码。下面那个复选框是如果是教师就勾选，但是似乎作用不大，除非是组织学生使用replit来学习。点击Sign Up之后到填写的邮箱查收验证邮件，并点击里面的验证按钮确认验证。点击之后如果还显示需要验证邮箱就刷新一下。这样注册就完成了。
-![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/20210513152605365.png)
-![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/20210513152752180.png)
-![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/20210513152953190.png)
+![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/20210513152605365.png)
+![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/20210513152752180.png)
+![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/20210513152953190.png)
 ## 1.2 注册Vercel
 打开[vercel.com](https://vercel.com/)，还是点击右上角的Sign Up，然后点击右侧下方的Continue With Email。输入邮箱（也可以使用QQ邮箱），再点击Continue With Email。然后会提示验证邮箱。这时候前往注册邮箱查收验证右键，点击验证按钮，注册就完成了。
 
 {% grouppicture 4-2 %}
-![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/20210511121841353.jpeg)
-![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/20210513153337342.png)
-![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/20210513153509427.png)
-![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/20210513153737338.png)
+![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/20210511121841353.jpeg)
+![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/20210513153337342.png)
+![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/20210513153509427.png)
+![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/20210513153737338.png)
 {% endgrouppicture %}
 
 # 2. 初始化Hexo
 ## 2.1 在Replit创建Repl
 到Repl的页面，点击左上方的“ + New Repl”，创建一个Bash语言的Repl。如果候选列表看不到Bash也可以输入bash，然后就看到了。给Repl起一个名字。然后点击Create repl，然后就自动跳转到写代码的页面了。
-![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/20210513154116948.png)
+![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/20210513154116948.png)
 ## 2.2 一句话初始化Hexo
 [Vercel官网给了一条命令](https://vercel.com/guides/deploying-hexo-with-vercel)，这一条命令就可以把Hexo初始化了。这里的Repl本身就是一台位于美国的Linux云服务器，所以不需要考虑网速不够的问题，也就不需要配置什么镜像源。
 
@@ -61,7 +61,7 @@ export PATH=$PATH:~/$REPL_SLUG/my-hexo-blog/node_modules/.bin
 hexo s
 ```
 就可以看到右上角出现网页了。也可以点击第二个按钮新开一个标签查看。
-![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/20210513155633407.png)
+![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/20210513155633407.png)
 # 3. 部署到Vercel
 ## 3.1 安装Vercel
 我们使用```npm```安装Vercel控制台客户端。```cd```到```my-hexo-blog```，执行
@@ -73,9 +73,9 @@ npm install vercel
 
 ## 3.2 登陆Vercel
 首次运行Vercel提示你登录。输入你注册Vercel账号的邮箱地址，然后Vercel会给这个邮箱发一封邮件，控制台程序也会等待验证完成，打开这个邮件点击验证（VERIFY）按钮，点击之后就显示验证完成，控制台程序也会提示登录成功。
-![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/20210513160536475.png)
-![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/20210513160536489.png)
-![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/20210513160536481.png)
+![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/20210513160536475.png)
+![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/20210513160536489.png)
+![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/20210513160536481.png)
 ## 3.3 部署到Vercel
 登陆上去之后就可以部署了。我们需要把Hexo生成静态站点，然后到生成的站点目录去执行部署到Vercel。
 
@@ -118,7 +118,7 @@ hexo cl && hexo g && cd public && vercel --prod --confirm && cd ..
 
 > 在Vercel网页端登陆账号，进入这个项目，选择Settings，Domains，添加之前注册的独立域名。添加以后这时候Vercel的界面会提示你需要添加域名的解析。到这个域名解析的后台，添加一个类型为```A```，主机记录为```@```的解析记录，如果之前有这个记录则直接修改。记录值按照Vercel的界面提示填写```76.76.21.21```。其他选项保持默认即可。
 
-> ![](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/20210218100218514.png)
+> ![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/20210218100218514.png)
 
 > 稍等片刻，再访问这个域名，即可以更快的速度显示页面了。
 {% endnote %}

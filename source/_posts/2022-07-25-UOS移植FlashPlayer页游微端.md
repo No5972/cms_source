@@ -39,12 +39,12 @@ case 'linux':
 
 之所以这么改，是因为米叔他那个上面的 SWFObject.js 不识别 Linux 系统下的 ```.so```的 Flash Player 组件文件，换一个扩展名才行。
 
-![在这里插入图片描述](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/d09152098787499dad9f5ed1856a1862.png)
+![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/d09152098787499dad9f5ed1856a1862.png)
 
 
 从一切可以找得到的地方下载版本 31 的 Flash Player Linux PPAPI 64 位的版本。解压出来的文件名通常是 ```flash_player_ppapi_linux_x86_64.tar.gz```。再从这个 gz 里面提取出 ```libpepflashplayer.so```文件，放到刚才的 ```app/assets```目录，重命名为```libpepflashplayer.plugin```。
 
-![在这里插入图片描述](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/c9ad9e776c3146bda859e1467c8c05aa.png)
+![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/c9ad9e776c3146bda859e1467c8c05aa.png)
 
 
 然后修改 hosts，屏蔽掉检测版本的域名。首次运行前务必屏蔽这些域名，否则就会出现“该版本过旧，不支持运行，请升级后使用”的提示，遇到这个提示的话修改起来很麻烦（具体修改参考后面的附注）。到 UOS 应用商店下载 SwitchHosts 并打开，打开 My Hosts，然后添加这些规则，然后点击开关来打开：
@@ -56,7 +56,7 @@ case 'linux':
 127.0.0.1 macromedia.com
 ```
 
-![在这里插入图片描述](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/1ef904d0dc2b4397860b61a469f46dc2.png)
+![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/1ef904d0dc2b4397860b61a469f46dc2.png)
 
 
 在 ```electron```目录新建一个 ```.sh```的任意文件名的文件。添加这些内容：
@@ -65,7 +65,7 @@ case 'linux':
 ./electron ./app
 ```
 
-![在这里插入图片描述](https://pic1.xuehuaimg.com/proxy/https://img-blog.csdnimg.cn/28e491801397442d8dc67b9277ad0bec.png)
+![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/28e491801397442d8dc67b9277ad0bec.png)
 
 之后就可以通过双击此 sh 文件选择“运行”来使用了。
 
