@@ -20,12 +20,12 @@ isrepublish: false
 
 假设这是一个已经写好的 HelloWorld 的 Electron 应用，并且带有完整的 Electron 环境。在项目根目录输入 `./electron ./app` 可以打开 HelloWorld 的界面。完整的 Electron 环境可以在 UOS 应用商店搜索下载 Electron 然后从 `/opt/apps/com.electron/files/electron` 拷贝出来目录。
 
-![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/55af1e9fae0c4a30a2d4ac930abcc526.png)
+![在这里插入图片描述](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/55af1e9fae0c4a30a2d4ac930abcc526.png)
 # 准备好软件的图标文件
 
 在程序目录添加一个 512 x 512 的 PNG 图标作为应用的图标。因为 UOS 的任务栏可以缩放，如果不搞这么高分辨率的图片，可能会出现图标模糊的情况。如果没有这样高分辨率的图标，也可以使用 SVG 格式的图标作为图标。随便起个名字，放到 `electron` 目录。
 
-![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/d833ef13b20841d6b711486768c4071a.png)
+![在这里插入图片描述](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/d833ef13b20841d6b711486768c4071a.png)
 # 打开 DebreateForUOS，从菜单上的页面-Control 文件开始。
 
 * 包名：要求填写域名加点加软件名。
@@ -38,7 +38,7 @@ isrepublish: false
 * 短述：它将表征为应用在双击安装包运行时显示的名称。
 * 详细描述：它将表征为应用商店中显示的应用描述。
 
-![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/6ec5061665fb4f2abac72ebdd9093131.png)
+![在这里插入图片描述](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/6ec5061665fb4f2abac72ebdd9093131.png)
 # 菜单的页面-依赖和冲突：
 
 我们是 Electron 应用，如果没有调用系统 API 的话一般不需要处理这里。
@@ -49,7 +49,7 @@ isrepublish: false
 
 * 这里建议如实填写应用权限，如果不如实填写的话有可能 Linux 系统底层会限制一些功能，例如是否使用剪贴板，是否使用通知等。
 
-![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/dd950e23e261483284a5ef1f4201ffeb.png)
+![在这里插入图片描述](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/dd950e23e261483284a5ef1f4201ffeb.png)
 # 菜单的页面-Desktop 文件：
 这一步很重要，它将影响应用在启动器菜单的加载。
 
@@ -76,40 +76,40 @@ isrepublish: false
 ```
 
 * 分类：程序的类别决定了程序在系统启动器菜单项中的位置。
-![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/050d18f9bf5f4cbba0ce2affbb794490.png)
+![在这里插入图片描述](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/050d18f9bf5f4cbba0ce2affbb794490.png)
 # 菜单的页面-icon 文件：
 这一步决定了程序在上架时显示的图标。从左侧的树形文件列表找到最开始放进去的图标文件，拖到右边的列表去。然后根据使用图标文件的格式选择文件格式和尺寸。
 
-![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/8e3fdb3f4c504a238c10ef24164c4d1f.png)
+![在这里插入图片描述](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/8e3fdb3f4c504a238c10ef24164c4d1f.png)
 # 菜单的页面- file 目录文件：
 这一步也很重要，这决定了软件本体文件以及要放置的目标位置。注意首先将目标目录选择自定义，然后把输入框的“{包名}”改成之前在 Control 文件填写的包名。因为这里可能有 bug，如果选择前面的带有“{包名}”的选项，打包出来的程序安装后并不会安装到实际的包名目录，而是就放在了一个叫“{包名}”的目录。这里强调一下。
 
 然后在左侧找到整理好的 electron 目录，展开，然后使用 Shift 选中目录下的所有文件，然后注意右键选择 Add to project，不要直接拖，否则他只会拖动鼠标指向的那一个文件，这样就得一个一个的拖了。
 
-![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/8ad69a664acd4e0a9d99e57788ceeee1.png)
+![在这里插入图片描述](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/8ad69a664acd4e0a9d99e57788ceeee1.png)
 # 菜单的页面-添加脚本：
 如果需要在安装或者卸载时执行一些系统命令，那么在这里可以配置。注意有些涉及管理员操作的命令还是要加 `sudo` 前缀的。
 
-![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/1315709b90254f2fb6cbed0e9add84af.png)
+![在这里插入图片描述](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/1315709b90254f2fb6cbed0e9add84af.png)
 # 菜单的页面-更新日志：
 它将表征为软件在应用商店显示的更新信息。紧迫性表示此次更新的重要程度。如果这是同一个软件的新版本，那么就需要认真填写版本号和更新情况。
-![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/07623dca61924801b30d67e56615aa3d.png)
+![在这里插入图片描述](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/07623dca61924801b30d67e56615aa3d.png)
 # 菜单的页面-版权文件：
 如果这个软件有许可协议，那么可以在此填写。如果是遵循某种开源协议开源的软件，也可以直接选择现成的开源协议模板。
 
-![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/12bfbccf6f1c4955b9a17994c9bb6902.png)
+![在这里插入图片描述](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/12bfbccf6f1c4955b9a17994c9bb6902.png)
 # 开始构建
 
 然后就可以到菜单的页面-构建来开始打包了。点击中间的图标，指定打包 deb 文件的位置。然后稍等片刻，打包完成！
 
-![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/85f84683154f4676aedffc8826439eba.png)
-![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/ee2cafe74b4a45259c3aefd3b6fa9af3.png)
+![在这里插入图片描述](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/85f84683154f4676aedffc8826439eba.png)
+![在这里插入图片描述](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/ee2cafe74b4a45259c3aefd3b6fa9af3.png)
 # 测试安装
 
 测试安装打包好的文件，如果启动器的菜单项正常显示，并且可以正常打开，那么打包就是完美的。
 
-![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/d7a5bbe9ceea4b0db77d9592157bead3.png)
-![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/50178062cb3244e6bc5c576025f80bf5.png)
-![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/74b62f0c2d2d4083b43b256385aa27bb.png)
+![在这里插入图片描述](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/d7a5bbe9ceea4b0db77d9592157bead3.png)
+![在这里插入图片描述](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/50178062cb3244e6bc5c576025f80bf5.png)
+![在这里插入图片描述](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/74b62f0c2d2d4083b43b256385aa27bb.png)
 
 

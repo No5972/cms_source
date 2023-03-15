@@ -86,4 +86,4 @@ namespace dotnet5demo
 </body>
 </html>
 ```
-这样，点击按钮就可以执行对应的C#代码了。![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/20210302163028593.png)
+这样，点击按钮就可以执行对应的C#代码了。![在这里插入图片描述](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/20210302163028593.png)

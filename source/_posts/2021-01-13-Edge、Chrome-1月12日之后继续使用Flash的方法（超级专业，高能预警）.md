@@ -20,13 +20,13 @@ permalink: /archivers/63
 
 ~~因为1月21日更新之后Edge就不再支持Flash了，改好之后的文件和附带的那个```manifest.json```最好也备个份，到时候可以拷贝到别的浏览器里面继续使用！~~ 22号Edge已经更新了88版本，已经不再支持Flash了。请大家下载绿色版Chrome来使用Flash，有不少绿色版Chrome内置了旧版的Flash Player。
 
-我们用WinHex打开Edge浏览器里面的```pepflashplayer.dll```，搜索，查找十六进制数值，把刚才那个十六进制码输入进去（不要空格）。果不其然，在PPAPI的DLL里面也发现了这个十六进制码！![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/20210113015442928.png)
-![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/20210113015704386.png)
+我们用WinHex打开Edge浏览器里面的```pepflashplayer.dll```，搜索，查找十六进制数值，把刚才那个十六进制码输入进去（不要空格）。果不其然，在PPAPI的DLL里面也发现了这个十六进制码！![在这里插入图片描述](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/20210113015442928.png)
+![在这里插入图片描述](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/20210113015704386.png)
 
 
 目前Edge浏览器的Flash版本是32.0.0.465。在版本32.0.0.465的PPAPI的DLL里面，这个时间戳的位置是```015F6C68```。
 
-先别管那么多，根据计算机常识，数据通常是小端存储，二进制的最高位通常是符号位。我们就把这一串的最后那个字节```42```想个什么办法改大一点，但是也不要超过```80```，不然可能就变成负数了。所以我们就暂且先把他改成```72```。保存之，替换到Edge的原来文件。![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/2021011301592869.png)
+先别管那么多，根据计算机常识，数据通常是小端存储，二进制的最高位通常是符号位。我们就把这一串的最后那个字节```42```想个什么办法改大一点，但是也不要超过```80```，不然可能就变成负数了。所以我们就暂且先把他改成```72```。保存之，替换到Edge的原来文件。![在这里插入图片描述](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/2021011301592869.png)
 
 
-再打开一个Flash的网页，可以加载Flash了！![在这里插入图片描述](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/20210113015344268.png)
+再打开一个Flash的网页，可以加载Flash了！![在这里插入图片描述](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/20210113015344268.png)

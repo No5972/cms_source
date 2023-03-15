@@ -27,7 +27,7 @@ file:///C|/Documents%20and%20Settings/Administrator/Local%20Settings/Application
 
 ToolKit for CreateJS 这个插件的文件结构是比较复杂的。我们用 7-Zip 打开这个 .zxp 的文件。里面有若干目录，但是首先注意到根目录有一个 .mxi 的文件，强行用文本编辑器打开，发现是一个 XML 格式的文件。经过一番查找后发现在文件下方记载了插件包各个文件需要放置的路径。```destination```的```$Flash```应该就是前者出现的目录路径。前往这个目录的路径，然后在 7-Zip 中将对应的文件放入指定的目录。
 
-![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/426a2eb40e7f4f88a96e5d0ce87fbe16.png)
+![](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/426a2eb40e7f4f88a96e5d0ce87fbe16.png)
 
 
 这样在```Configuration```目录中释放好的文件结构应该是这样子的。
@@ -83,4 +83,4 @@ C:\USERS\ADMIN\APPDATA\LOCAL\ADOBE\FLASH CS6\ZH_CN\CONFIGURATION\COMMANDS
 
 按照上面的结构布置好文件以后，打开 Flash ，打开或者新建 FLA 文档，然后点击菜单栏的窗口-其他面板，就可以看到 ToolKit for CreateJS 这个选项了，然后就可以按照其他文章的做法来导出 HTML5 的动画了。
 
-![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/72aaab3b4e734a5cb7dc0c1371470b32.png)
+![](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/72aaab3b4e734a5cb7dc0c1371470b32.png)

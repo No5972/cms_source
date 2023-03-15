@@ -24,7 +24,7 @@ WebSocket 是一种在单个 [TCP](https://baike.baidu.com/item/TCP) 连接上�
 
 # 代码示例
 代码结构如下：
-![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/img_convert/098d112678c4ce3a6069d712283728b5.png)
+![](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/img_convert/098d112678c4ce3a6069d712283728b5.png)
 
 POM 文件中的依赖：
 ```xml
@@ -208,16 +208,16 @@ public class OneWebSocket {
 其中 ```@ServerEndpoint``` 注解是服务端与客户端交互的关键，其值 (```/test/one```) 得与 ```index``` 页面中的请求路径对应。
 
 启动服务，在浏览器请求 ```http://localhost:18092/index.html``` ，如下所示：
-![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/img_convert/0125aadcb2910b4ca22a82e254851683.png)
+![](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/img_convert/0125aadcb2910b4ca22a82e254851683.png)
 
 请求一发出，立马就会建立服务端与客户端的连接。服务端打印日志如下：
-![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/img_convert/f55a76be4c8c650bc8121533f5344d95.png)
+![](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/img_convert/f55a76be4c8c650bc8121533f5344d95.png)
 
 在文本框中输入内容：“你好”，然后点击 Send 按钮，浏览器效果：
-![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/img_convert/0a0150c3ba89ca87ffde6ddd0e83d166.png)
+![](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/img_convert/0a0150c3ba89ca87ffde6ddd0e83d166.png)
 
 服务端日志：
-![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/img_convert/b794905998c2bc232406d4da30fb85f5.png)
+![](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/img_convert/b794905998c2bc232406d4da30fb85f5.png)
 
 （备注：服务端关闭或者浏览器关闭的效果，都会导致连接断开，这里不演示）
 
@@ -303,10 +303,10 @@ public class OneToManyWebSocket {
 ```
 
 将 ```index.html``` 页面的路径改为 ```/test/oneToMany```。重启服务，在浏览器开多个页面。服务端日志如下：
-![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/img_convert/d74ca599ca01c20ad653f1f8da7ce0b4.png)
+![](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/img_convert/d74ca599ca01c20ad653f1f8da7ce0b4.png)
 
 在浏览器第一个页面中输入内容：“你好”，会发现其它页面都收到了消息“你好”。服务端日志如下：
-![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/img_convert/2bcc0eedc3e6230a9022f6c16c1839f6.png)
+![](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/img_convert/2bcc0eedc3e6230a9022f6c16c1839f6.png)
 
 ## 3、自己给另一个客户端发送消息
 创建一个 ```OneToOneWebSocket``` 类，用来服务端与客户端进行交互：
@@ -397,9 +397,9 @@ public class OneToOneWebSocket {
 将 ```index.html``` 页面的路径改为 ```/test/oneToOne```。重启服务，在浏览器打开两个页面。
 
 由于服务端是解析的 JSON 字符串，这里为了简单起见，直接在浏览器输入 JSON 字符串：```{"message":"你好", "userId":1}```。另一个页面收到了消息：
-![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/img_convert/e81a0282a2ac02eb9862e75eef75741a.png)
+![](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/img_convert/e81a0282a2ac02eb9862e75eef75741a.png)
 
 服务端日志：
-![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/img_convert/2adde634315c6569543a5b54af720a0a.png)
+![](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/img_convert/2adde634315c6569543a5b54af720a0a.png)
 
 至此，所有场景演示完毕。

@@ -10,4 +10,4 @@ permalink: /archivers/138
 isrepublish: false
 ---
 
-临时记录一下：现在的官方 Win10 微端使用 Universal Extractor 时不能使用 LessMSI 了，得使用 MsiX 来解包。解包之后会得到一个 DLL 文件，再用 7-Zip 或者 WinRAR来解压这个 DLL 文件来获得内容。![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/c69e675b0a7b41ebb38624ae9ccb34e0.png)
+临时记录一下：现在的官方 Win10 微端使用 Universal Extractor 时不能使用 LessMSI 了，得使用 MsiX 来解包。解包之后会得到一个 DLL 文件，再用 7-Zip 或者 WinRAR来解压这个 DLL 文件来获得内容。![](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/c69e675b0a7b41ebb38624ae9ccb34e0.png)

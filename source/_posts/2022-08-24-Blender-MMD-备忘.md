@@ -17,14 +17,14 @@ isrepublish: false
 5. 导入VRM后如果不能调整姿态，先选中姿态，然后将左上角物体模式改成姿态模式。
 6. 导入OBJ可能会丢失贴图。将下划线开头的PNG导入即可恢复。
 7. PMD转PMX：使用Blender和CATS插件。导入PMD然后直接导出PMX即可。
-8. 对透明底发光贴图材质的发光设置：原贴图是针对MME的Autoluminous而使用的透明底贴图，这种情况把图像纹理或者Mmd Base Tex的Alpha拉一根出来放到混合着色器的系数。加一个原理化BSDF，Alpha调到0。加一个自发光（发射），根据需要设置发光参数。把这两个着色器拉到前述混合着色器即可。![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/31f17fef124d4b64bcc5a978c8bfe81e.png)
+8. 对透明底发光贴图材质的发光设置：原贴图是针对MME的Autoluminous而使用的透明底贴图，这种情况把图像纹理或者Mmd Base Tex的Alpha拉一根出来放到混合着色器的系数。加一个原理化BSDF，Alpha调到0。加一个自发光（发射），根据需要设置发光参数。把这两个着色器拉到前述混合着色器即可。![](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/31f17fef124d4b64bcc5a978c8bfe81e.png)
 
 9. 渲染出现贴图混乱的情况：Cycles对相同物体重叠贴图有问题。Eevee不存在这个问题。如果要用Cycles渲染的话需要合并相同位置的贴图且只保留一个这样的物体。
 10.  部分格式为VRM的饰品，先用VRM2PMXConverter转换成PMX，再导入PMXEditor，将无关的材质删除，只保留饰品本身。然后点击文件-导出，此时就能看到保存类型为“.x”的选项。如果输入文件名中没有出现“.x” 的后缀可以手动填写后缀“.x”。然后就可以作为饰品导入MMD了。将下拉框选择“镜头/灯光/饰品”，然后点击最右边“饰品”里面的载入，选择刚才导出的.x的文件。然后选择要绑定的角色和要绑定的部位（绑骨）。此时此饰品就会跟着这个角色的这个部位一起移动了，如果还发现位置有偏移的话，可以再显式指定调整位置坐标和旋转角度，甚至可以调整大小和透明度。
-11. 对透明底服装贴图材质的设置：把图像纹理或者Mmd Base Tex的Alpha拉一根出来放到混合着色器的系数。加一个原理化BSDF，Alpha调到0。加上需要使用的着色器，根据需要设置参数。把这两个着色器拉到前述混合着色器。再加一个混合着色器，把MMDShaderDev拉到第二个混合着色器第一个入口，第一个混合着色器拉到第二个着色器第二个入口。将第二个着色器接到材质输出即可。![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/70bdf2978e86445b846202945d9876c3.png)
+11. 对透明底服装贴图材质的设置：把图像纹理或者Mmd Base Tex的Alpha拉一根出来放到混合着色器的系数。加一个原理化BSDF，Alpha调到0。加上需要使用的着色器，根据需要设置参数。把这两个着色器拉到前述混合着色器。再加一个混合着色器，把MMDShaderDev拉到第二个混合着色器第一个入口，第一个混合着色器拉到第二个着色器第二个入口。将第二个着色器接到材质输出即可。![](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/70bdf2978e86445b846202945d9876c3.png)
 12. 将含有MMD模型的```.blend```工程文件上载到云电脑渲染的时候，可能会出现丢失贴图的问题。欲解决这个问题，需要在保存之前点击菜单的文件-外部数据-全部打包到blend文件，然后再保存一次。这样，所有的贴图就打包进去了。可能会报错找不到toon的文件，那个是卡通纹理，我们blender暂时用不到，可以忽略，不会影响其他的材质贴图。
 13. Eevee渲染如果出现阴影不明显的情况，需要将渲染设置的阴影设置中的“高位深”勾选。渲染出现画面太灰的情况，可以在渲染设置最下面的色彩管理勾选使用曲线，然后将C的曲线根据需要来调整。当前调教参数：CX1: 0.145, CY1: 0.068, CX2: 0.405, CY2: 0.256, CX3: 0.657, CY3: 0.468, CX4: 0.912, CY4: 0.737四点曲线。其他R、G、B保持默认。 （感谢《电脑报》2022年34期29版文章《让EEVEE效果更真实：blender渲染设置教学》）
 14. 调整动画的帧率：如果直接调整帧率的话，动画速度会变。此时需要将时间轴上的所有关键帧选中，然后把播放指针挪到0帧，然后按S键，然后输入各个帧数乘以的倍率。然后再去设置导出视频的帧率。
 15. 关于角色肤色不正：把皮肤材质的MMD Base Tex的颜色和MMDShaderDev的Base Tex之间的线的位置插入一个颜色-RGB曲线，然后根据需要配置参数。当前调教参数：右上角节点CX0.5，RX0.3，GX0.8，其他保持默认。全部用直线。
 16. 某些带马尾头发的角色，马尾不会动，此时可以使用MikuMikuMoving将原本的角色动作VMD转换成带有头发摆动数据的VMD。先导入角色，然后导入动作，然后工具栏打开物理-录制。再回到工具栏首页选择导出动作。选中所有复选框。这样即可导出带有头发飘动的VMD，这个可以导入blender。这比在blender烘焙要快得多。但是穿模的问题未能在此得到解决。
-17. 设置几何节点之后材质无效：参考StackOverflow上“Material Not Showing on Objects Using Geometry Nodes”的答案，将最后的组输出前面插入一个“材质-设置材质”，然后选择需要的材质即可。 ![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/fa21de8420c74c47bed7cd3272bd6691.png)
+17. 设置几何节点之后材质无效：参考StackOverflow上“Material Not Showing on Objects Using Geometry Nodes”的答案，将最后的组输出前面插入一个“材质-设置材质”，然后选择需要的材质即可。 ![](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/fa21de8420c74c47bed7cd3272bd6691.png)

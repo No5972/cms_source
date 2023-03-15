@@ -65,4 +65,4 @@ DATABASES = {}
 
 还是和刚才提及的那篇文章一样，回答他提出的问题。然后看一看最终完成后输出的访问地址，看看能不能访问了。
 
-![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/591f2a79901b4a8fba6063088a534329.png)
+![](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/591f2a79901b4a8fba6063088a534329.png)

@@ -42,17 +42,17 @@ jobs:
 
 前往GitHub网站，进入账号设置，Developer Settings，Personal access tokens，然后点击Generate new token。Note处随便起个名字，Select scopes里面把Repo勾选。点击最下边的Generate token。把显示出来的令牌复制出来，这个只会显示一次，之后将永远不再显示， 所以需要暂时先复制出来。
 
-![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/2021021809573984.png)
+![](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/2021021809573984.png)
 
-![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/20210218095738971.png)
+![](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/20210218095738971.png)
 
-![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/2021021809573951.png)
+![](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/2021021809573951.png)
 
 在非主页仓库后台设置的Settings里面打开Secrets，添加一个密钥```PERSONAL_TOKEN```，取值就是刚才复制的令牌，注意不要带空格。
 
-![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/20210218100015625.png)
+![](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/20210218100015625.png)
 
-![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/20210218100015582.png)
+![](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/20210218100015582.png)
 
 这样就可以在提交此非主页仓库时自动把此仓库所有文件拷贝到主页仓库下了。
 
@@ -66,6 +66,6 @@ jobs:
 
 进入这个项目，选择Settings，Domains，添加之前注册的独立域名。添加以后这时候Vercel的界面会提示你需要添加域名的解析。到这个域名解析的后台，添加一个类型为```A```，主机记录为```@```的解析记录，如果之前有这个记录则直接修改。记录值按照Vercel的界面提示填写```76.76.21.21```。其他选项保持默认即可。
 
-![](https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/20210218100218514.png)
+![](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/20210218100218514.png)
 
 稍等片刻，再访问这个域名，即可以更快的速度显示页面了。
