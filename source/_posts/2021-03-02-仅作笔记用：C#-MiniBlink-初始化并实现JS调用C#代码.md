@@ -40,7 +40,7 @@ namespace dotnet5demo
         {
 
             Assembly assembly = Assembly.GetExecutingAssembly();
-            // 指定资源名称
+            // 指定资源名称，注意这里的参数的第一段要改成项目的名称！！！
             System.IO.Stream stream = assembly.GetManifestResourceStream("dotnet5demo.Resources.mainPage.html");
             // 储存网页HTML的字符串对象
             string mainPage = new StreamReader(stream).ReadToEnd();
@@ -86,4 +86,6 @@ namespace dotnet5demo
 </body>
 </html>
 ```
-这样，点击按钮就可以执行对应的C#代码了。![在这里插入图片描述](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/20210302163028593.png)
+这样，点击按钮就可以执行对应的C#代码了。如果报错无法加载 DLL“node.dll”，就从```%USERPROFILE%\.nuget\packages\miniblinknet\版本号\build``` 里面拷一个 ```node.dll``` 出来放到程序目录里面就可以了。
+
+![在这里插入图片描述](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/20210302163028593.png)
