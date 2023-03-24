@@ -40,8 +40,8 @@ namespace dotnet5demo
         {
 
             Assembly assembly = Assembly.GetExecutingAssembly();
-            // 指定资源名称，注意这里的参数的第一段要改成项目的名称！！！
-            System.IO.Stream stream = assembly.GetManifestResourceStream("dotnet5demo.Resources.mainPage.html");
+            // 指定资源名称
+            System.IO.Stream stream = assembly.GetManifestResourceStream(Assembly.GetEntryAssembly().GetName().Name + ".Resources.mainPage.html");
             // 储存网页HTML的字符串对象
             string mainPage = new StreamReader(stream).ReadToEnd();
             
