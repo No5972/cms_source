@@ -2,6 +2,7 @@
 
 
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -247,9 +248,20 @@ animation: text-scroll 35s linear infinite;
 font-family: 'FreeSerif', 'DIN-Bold', "PingFang SC", "Noto Serif TC", "Noto Serif SC", sans-serif;
 font-size: 20px;
 height: 400px;
-width: 100%;
-display: inline-block;
+width: 95%;
+display: -webkit-box;
+display: box;
+-webkit-box-orient: horizontal;
+-webkit-box-pack: center;
+-webkit-box-align: center;
+-moz-box-orient: horizontal;
+-moz-box-pack: center;
+-moz-box-align: center;
 vertical-align: middle;
+}
+
+#text .paragraph .paragraphEx {
+width: 100%; 
 }
 
 #text .paragraph a {
@@ -430,19 +442,19 @@ img { filter: sepia() saturate(4) hue-rotate(150deg); }
 @keyframes text-bg-a {0% {transform: translateX(-800px) scaleX(0.1);} 15% {transform: translateX(-800px) scaleX(0.1);}100% {transform: translateX(0px) scaleX(1);}}
 
 @keyframes text-scroll {
-0% {transform: translateY(400px);}
-2% {transform: translateY(400px);}
-4% {transform: translateY(100px);}
-20% {transform: translateY(100px);}
-23% {transform: translateY(-275px);}
-40% {transform: translateY(-275px);}
-43% {transform: translateY(-750px);}
-60% {transform: translateY(-750px);}
-63% {transform: translateY(-1175px);}
-80% {transform: translateY(-1175px);}
-83% {transform: translateY(-1550px);}
-97% {transform: translateY(-1550px);}
-100% {transform: translateY(-2300px);}
+0% {transform: translateY(320px);}
+2% {transform: translateY(320px);}
+4% {transform: translateY(0px);}
+20% {transform: translateY(0px);}
+23% {transform: translateY(-400px);}
+40% {transform: translateY(-400px);}
+43% {transform: translateY(-800px);}
+60% {transform: translateY(-800px);}
+63% {transform: translateY(-1200px);}
+80% {transform: translateY(-1200px);}
+83% {transform: translateY(-1600px);}
+97% {transform: translateY(-1600px);}
+100% {transform: translateY(-2000px);}
 }
 
 @keyframes twisting {0% {transform: rotate(0deg);} 25% {transform: rotate(90deg);} 50% {transform: rotate(180deg);} 75% {transform: rotate(270deg);} 100% {transform: rotate(360deg);}}
