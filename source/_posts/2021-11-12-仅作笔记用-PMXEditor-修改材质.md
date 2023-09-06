@@ -45,7 +45,7 @@ isrepublish: true
 
 ![](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/img_convert/e870b5ba5b380a3f162832cac16019d5.png)
 
-![](https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/img_convert/5a0cdcb0452bd8b642c4a79e186d812f.gif)
+![](https://pic1.zhimg.com/80/v2-0c0a6c802ecec5ae27a91333ed6cfb6d.gif)
 
 ray渲N渲IK渲本身就自带高光贴图设置，这也就是为什么N渲的作者在演示时让你删除Sph的原因，
 你可以在N渲的文件夹中找到这类贴图文件。当然了这里也不需要设置什么法线贴图，
