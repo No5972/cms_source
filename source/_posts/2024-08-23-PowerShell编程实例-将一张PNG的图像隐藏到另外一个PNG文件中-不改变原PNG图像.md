@@ -3,7 +3,7 @@ layout: post
 title: "PowerShell 编程实例：将一张 PNG 的图像隐藏到另外一个 PNG 文件中，不改变原 PNG 图像"
 date: 2024-08-23 17:00:00
 categories: 
-  - [Webapp]
+  - [PowerShell]
 excerpt: "此代码的作用是，将一张 PNG 的图像隐藏到另外一个 PNG 文件中，不改变原 PNG 文件的图像的任何地方。大致原理是，通过 PowerShell 向 PNG 文件指定位置添加任意内容，而不破坏 PNG 文件的图像。将要隐藏的 PNG 文件的内容转换为 Base64 字符串，然后将这个 Base64 字符串隐藏到宿主 PNG 文件的指定位置即可。"
 mathjax: true
 permalink: /archivers/162

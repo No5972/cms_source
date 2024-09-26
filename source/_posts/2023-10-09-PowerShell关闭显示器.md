@@ -3,7 +3,7 @@ layout: post
 title: "仅做笔记用：PowerShell 关闭显示器"
 date: 2023-10-09 18:30:00
 categories: 
-  - [Webapp]
+  - [PowerShell]
 excerpt: "使用这个命令可以手动关闭显示器，这样就不需要第三方工具甚至自己写C/C++/C#/Python代码了。"
 mathjax: true
 permalink: /archivers/153
