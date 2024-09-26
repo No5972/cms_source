@@ -3,7 +3,7 @@ layout: post
 title: "仅作笔记用：PMXEditor 添加饰品"
 date: 2022-12-05 20:00:00
 categories: 
-  - [Webapp]
+  - [Animation]
 excerpt: "看到现有的绑骨教程往往是晦涩难懂的，的确 PMXEditor 里面添加饰品没有 MMD 那么简单。这里从 LearnMMD 站点上找了一个相对比较简单的教程，这里稍微复述一遍。"
 mathjax: true
 permalink: /archivers/141

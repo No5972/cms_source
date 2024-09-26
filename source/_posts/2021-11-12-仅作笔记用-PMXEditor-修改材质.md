@@ -3,7 +3,7 @@ layout: post
 title: "仅作笔记用：PMX Editor 修改贴图材质"
 date: 2021-11-12 16:30:00
 categories: 
-  - [Webapp]
+  - [Animation]
 excerpt: "关于材质的网上并没有标准的定义，顶点、面、贴图、透明度、反射度、法线贴图、高光贴图、Toon贴图，所有这些基础的材料组成的东西就叫材质。反过来删除材质就代表你把顶点、面、贴图等全部一并删除。我们所说的金属材质，木材材质只是对原始材料参数进行重新设定。"
 mathjax: true
 permalink: /archivers/112

@@ -3,7 +3,7 @@ layout: post
 title: "Flash CS6 导出 H5 格式的插件面板 ToolKit for CreateJS 的绿色安装方法"
 date: 2021-10-12 00:30:00
 categories: 
-  - [Webapp]
+  - [Animation]
   - [Moving Away from Flash]
 excerpt: "Flash安装插件的时候，需要Adobe Extension Manager ，但是安装Adobe Extension Manager 是一个很繁琐的过程，不一定成功，有时候还需要重新安装Flash，甚至这个Adobe Extension Manager 还不一定能用。所以就有了此文，手动安装插件面板。此方法可以免去安装 Adobe Extension Manager 的前提。"
 mathjax: true

@@ -3,7 +3,7 @@ layout: post
 title: "Blender MMD 备忘"
 date: 2022-08-24 10:30:00
 categories: 
-  - [Webapp]
+  - [Animation]
 excerpt: "Blender使用MMD模型需要注意的点"
 mathjax: true
 permalink: /archivers/134

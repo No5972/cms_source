@@ -3,7 +3,7 @@ layout: post
 title: "传新版支持光追的 MikuMikuDance 正由另一人研发——MikuMikuDance 2 Project"
 date: 2022-02-15 17:00:00
 categories: 
-  - [Webapp]
+  - [Animation]
 excerpt: "欢迎来到下一代 MMD 项目：为每个人准备的新的 3D 操场。MMD2 是完全从头开始构建的，这充分表明我们拥有完整的软件底层控制。我们想要什么功能就可以创建什么功能。不需要计算机图形学的专业知识，到时候会有专门的教程。您可以创建自己的渲染资源或使用每个人共享的资源。渲染资源可以是任意内容，从图像、音乐文件，到模型、着色器或者舞台……"
 mathjax: true
 permalink: /archivers/123
