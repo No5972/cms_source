@@ -129,7 +129,7 @@ sitemap:
   path: sitemap.xml
 
 baidusitemap:
-  url: https://no5972.cn
+  url: https://no5972.moe
 
 pwa:
   manifest:
