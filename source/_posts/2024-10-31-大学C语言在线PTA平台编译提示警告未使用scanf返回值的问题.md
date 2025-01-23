@@ -4,9 +4,9 @@ title: "大学 C 语言在线 PTA 平台编译提示警告未使用 scanf 返回
 date: 2024-10-31 18:00:00
 categories: 
   - [C/C++]
-excerpt: "最近在知乎发现有不少大学生在使用 PTA 平台在线编写 C 语言代码，编译时提示警告未使用 ```scanf``` 返回值的问题。有不少同学认为程序有问题，要是这样认为倒也是，因为 PTA 平台默认使用的 GCC 编译器希望你重视函数返回值的问题，希望你用上 ```scanf``` 函数的返回值。"
+excerpt: "最近在知乎发现有不少大学生在使用 PTA 平台在线编写 C 语言代码，编译时提示警告未使用 scanf 返回值的问题。有不少同学认为程序有问题，要是这样认为倒也是，因为 PTA 平台默认使用的 GCC 编译器希望你重视函数返回值的问题，希望你用上 scanf 函数的返回值。"
 mathjax: true
-permalink: /archivers/165
+permalink: /archivers/166
 isrepublish: false
 ---
 
