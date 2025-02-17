@@ -10,6 +10,8 @@ permalink: /archivers/167
 isrepublish: false
 ---
 
+GPT4All 内置的模型库，大部分模型是用的抱脸的网址，通常无法直连下载。 **我们这里提出一个手动下载和导入 DeepSeek R1 模型的本地部署方法。本方法的关键是找到 GPT4All 默认的读取路径。** 此外，GPT4All 不仅支持独显推理，也可使用 CPU 硬算。 *（不过听别处文章评论区说个别模型用独显是不行的，这个这边也没法证实，鄙人手头暂时没有能跑 AI 的独显；个人猜想 DeepSeek R1 应该不会存在这个问题）* 
+
 1. [下载安装 GPT4All 3.8.0 或以上的版本](https://www.nomic.ai/gpt4all)
     - 该版本开始已原生支持 DeepSeek R1 深度推理
     - 大约需要下载 600 多 MB 的本体包
