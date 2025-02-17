@@ -25,10 +25,11 @@ isrepublish: false
 ![](https://picx.zhimg.com/v2-07c3fd8a95d1ad99755c19034f361ebf_r.png)
 
 4. 打开 GPT4All，从左侧按钮切换到模型界面，看看是否识别到了 DeepSeek
+    - 首次启动时可能会弹出“匿名使用分析，以改进 GPT4All”和“匿名分享聊天到 GPT4All 数据湖”这两个选项，如果在意数据安全的话应都选择“否”。此项可在设置的“开启数据湖”中找到。
 ![](https://picx.zhimg.com/v2-caf462bd85d51de9365b5f2ef1d6df07_r.png)
 
 
-5. 如果识别到了，左侧切换到对话，选择下载的 DeepSeek R1 模型，等待加载完毕。然后就可以开始对话了。
+6. 如果识别到了，左侧切换到对话，选择下载的 DeepSeek R1 模型，等待加载完毕。然后就可以开始对话了。
     - 这边测试使用 i3-6100 CPU 硬算，大概是 2.4 令牌左右每秒。
 ![](https://pica.zhimg.com/v2-86f2b382014ca51e0b79429f80483008_r.png)
 ![](https://picx.zhimg.com/v2-9063342ea6cd23c83d2d90499655100b_r.png)
