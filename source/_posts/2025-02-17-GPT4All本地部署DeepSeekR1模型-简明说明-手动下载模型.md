@@ -4,7 +4,7 @@ title: "仅作笔记用：GPT4All 本地部署 DeepSeek R1 模型，简明说明
 date: 2025-02-17 16:00:00
 categories: 
   - [Webapp]
-excerpt: "这次我们手动下载模型并放入，而不是通过 GPT4All 里面的模型列表下载"
+excerpt: "GPT4All 内置的模型库，大部分模型是用的抱脸的网址，通常无法直连下载。 我们这里提出一个手动下载和导入 DeepSeek R1 模型的本地部署方法。本方法的关键是找到 GPT4All 默认的读取路径。 此外，GPT4All 不仅支持独显推理，也可使用 CPU 硬算。"
 mathjax: true
 permalink: /archivers/167
 isrepublish: false
