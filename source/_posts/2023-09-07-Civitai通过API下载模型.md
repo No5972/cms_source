@@ -3,7 +3,7 @@ layout: post
 title: "Civitai 通过 API 下载模型"
 date: 2023-09-07 17:00:00
 categories: 
-  - [Python]
+  - [AIGC]
 excerpt: "请求地址里面的 ```{id}``` 就是上一步找到的模型 **版本** 的 ID。访问后会返回一个 307 响应码。响应头的 ``` location``` 就是真实下载地址，但是这个地址是临时的，要尽快完成下载，不久后就会失效。"
 mathjax: true
 permalink: /archivers/151

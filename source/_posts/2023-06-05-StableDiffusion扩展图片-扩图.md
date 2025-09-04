@@ -3,7 +3,7 @@ layout: post
 title: "仅做笔记用：Stable Diffusion 扩展图片 / 扩图"
 date: 2023-06-05 22:30:00
 categories: 
-  - [Python]
+  - [AIGC]
 excerpt: "现有的解决方案，包括 Bing 搜出来的，基本上都是要收费的，这些解决方案大多基于 DALL-E。某度也很难搜出来一个图文的介绍。那么就应该研究一下开源的 Stable Diffusion 能不能也实现类似的扩图功能。这里临时记录一下在 Stable Diffusion 怎么操作可以扩展图片。"
 mathjax: true
 permalink: /archivers/147

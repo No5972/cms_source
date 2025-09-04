@@ -3,7 +3,7 @@ layout: post
 title: "仅做笔记用：Stable Diffusion 获取历史生成图片的 prompt"
 date: 2023-06-20 16:30:00
 categories: 
-  - [Python]
+  - [AIGC]
 excerpt: "不知怎么搞的，图库浏览器点开图片看不到生成图片的信息了。但是据信这些信息是写在 PNG 数据的某个附加区段的（参考博客文章《Python - PNG图掺入隐藏文本信息》）。Stable Diffusion 原生支持读取这些信息。并且除了图库浏览器，还有一个地方可以读取。"
 mathjax: true
 permalink: /archivers/148

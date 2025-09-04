@@ -3,7 +3,7 @@ layout: post
 title: "仅做笔记用：Stable Diffusion 通过 ControlNet 扩展图片 / 扩图"
 date: 2023-09-12 01:30:00
 categories: 
-  - [Python]
+  - [AIGC]
 excerpt: "发觉之前的 Outpainting 脚本效果仍旧不是很理想。这里又找了一下有没有效果更好的途径来扩图。于是就找到了通过 ControlNet 的方式来实现效果更好的扩图。这里临时记录一下在 Stable Diffusion 怎么使用 ControlNet 来扩展图片。"
 mathjax: true
 permalink: /archivers/152

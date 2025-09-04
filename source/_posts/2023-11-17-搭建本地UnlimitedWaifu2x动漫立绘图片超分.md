@@ -3,7 +3,7 @@ layout: post
 title: "搭建本地 Unlimited Waifu2x 动漫立绘图片超分"
 date: 2023-11-17 00:00:00
 categories: 
-  - [Webapp]
+  - [AIGC]
   - [PowerShell]
 excerpt: "Waifu2x 是一个图片超分的网站，某些图片鄙人经对比发现效果比 Stable Diffusion 的附加功能要好。而 Waifu2x 后续上线的 Unlimited Waifu2x 不仅支持 4 倍超分，而且是使用电脑本地的 CPU/GPU 运行的，也就是通过 WASM 的方式运行的。但是直接访问 Unlimited Waifu2x 的话，模型和 JS 都是从网络上加载的，速度很慢。这里决定在本地搭建一个 Unlimited Waifu2x，这样就不用每次都从网络上加载了，所有资源都是在本地加载。"
 mathjax: true
