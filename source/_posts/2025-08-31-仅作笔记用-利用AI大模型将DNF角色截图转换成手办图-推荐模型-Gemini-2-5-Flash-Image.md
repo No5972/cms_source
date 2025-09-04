@@ -14,7 +14,7 @@ isrepublish: false
 
 ![](https://images.weserv.nl?url=https://picx.zhimg.com/v2-4a02f49f23dab43b8481b81e37365a44_r.png)
 
-访问 lmarena 点 ai，选 Battle 模式，点击开启 Image
+访问 [https://lmarena.ai](https://lmarena.ai) ，选 Battle 模式，点击开启 Image
 
 **（更新：现在可以直接选择 Direct Chat 模式了，把上面的 Battle 改成 Direct Chat，然后点击下边图像按钮开启生成图片的模式，然后模型选择 Google Gemini 2.5 Flash Image Preview (Nano Banana)。那个 nano-banana 其实就是这个，这个现在已经可以直接在 Direct Chat 模式里面调用了。（还得是你谷歌老大哥在行））**
 
