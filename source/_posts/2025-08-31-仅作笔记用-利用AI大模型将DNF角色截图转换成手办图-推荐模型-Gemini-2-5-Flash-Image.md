@@ -14,6 +14,14 @@ isrepublish: false
 
 ![](https://images.weserv.nl?url=https://picx.zhimg.com/v2-4a02f49f23dab43b8481b81e37365a44_r.png)
 
+# 更新一个使用 OpenRouter 调用这个模型的办法
+
+这个方法需要一点 $，大概一张图 $0.04。在这个网站注册一个账号，可以使用邮箱，也可以使用 GitHub 等平台第三方登录。然后进入右上角头像，Credits，点击 Add Credits，然后在面板的下方点击开启 Use one-time payment methods，里面有国内常用的两大平台的之父方式，5 刀起充。
+
+准备好额度之后，点击右上角 Chat，再点击左上方 Add Model，然后搜索 flash image，选择 Google: Gemini 2.5 Flash Image Preview (Nano Banana)，然后下方聊天输入框点击上面的 Image 开启生成图片的模式。然后上传要使用的图片，把本文下面原来放上去的那个提示词输入，并根据实际情况调整。最后点击右下方紫色的按钮提交，稍等片刻就得到生成的图片了。
+
+# 原来的 LMArena 的方法
+
 访问 [https://lmarena.ai](https://lmarena.ai) ，选 Battle 模式，点击开启 Image
 
 **（更新：现在可以直接选择 Direct Chat 模式了，把上面的 Battle 改成 Direct Chat，然后点击下边图像按钮开启生成图片的模式，然后模型选择 Google Gemini 2.5 Flash Image Preview (Nano Banana)。那个 nano-banana 其实就是这个，这个现在已经可以直接在 Direct Chat 模式里面调用了。（还得是你谷歌老大哥在行））**
