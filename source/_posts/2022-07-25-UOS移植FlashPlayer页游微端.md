@@ -77,14 +77,10 @@ https://seer.61.com/play.shtml?from=we_seer
 
 即可。需要访问其他包含 Flash 内容的网页也可以改成任意网址。
 
----
-
 {% note info %}
 #### 附注：修复“该版本过旧，不支持运行，请升级后使用”
 
 请删除 ```/data/home/你的用户名/.config/WeHua/Pepper Data```这个目录，然后参照前面的说明修改 hosts，如果已经添加了域名则忽略这个 hosts。
 {% endnote %}
-
----
 
 获取 UOS 家庭版欢迎前往 [https://home.uniontech.com](https://home.uniontech.com) 。
