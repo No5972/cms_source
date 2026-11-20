@@ -1,3 +1,13 @@
+# For initializing (for github codespace, since replit is no longer usable in certain regions):
+# 
+# ```
+# cd themes
+# git clone git@github.com:No5972/hexo_next_source.git
+# mv hexo_next_source next
+# ```
+# 
+# upload `id_rsa` private key to ~/.ssh/ and chmod to 600
+
 rm -rf .deploy_git
 git add .
 git pull origin master
